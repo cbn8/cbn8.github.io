@@ -1,4 +1,3 @@
-<script type="text/javascript">
 $(document).ready(function(){
   $('.persona-slider').slick({
   slidesToShow: 3,
@@ -6,4 +5,3 @@ $(document).ready(function(){
   centerMode: true,
   });
 });
-  </script>
