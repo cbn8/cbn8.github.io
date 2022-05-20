@@ -1,7 +1,9 @@
 <script type="text/javascript">
-    $(document).ready(function(){
-      $('.persona-slider').slick({
-        setting-name: setting-value
-      });
-    });
+$(document).ready(function(){
+  $('.persona-slider').slick({
+  slidesToShow: 3,
+  dots:true,
+  centerMode: true,
+  });
+});
   </script>
