@@ -1,6 +1,6 @@
 <script type="text/javascript">
     $(document).ready(function(){
-      $('.your-class').slick({
+      $('.persona-slider').slick({
         setting-name: setting-value
       });
     });
