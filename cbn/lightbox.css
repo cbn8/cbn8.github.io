@@ -61,11 +61,8 @@ body.lb-disable-scrolling {
 }
 
 .lb-cancel {
-  display: block;
-  width: 32px;
-  height: 32px;
+  display: none;
   margin: 0 auto;
-  background: url(https://nathaniellr.github.io/cbn/images/loading.gif) no-repeat;
 }
 
 .lb-nav {
