@@ -26,7 +26,7 @@ body.lb-disable-scrolling {
 
 .lightbox .lb-image {
   display: block;
-  height: auto;
+  height: 90%;
   max-width: inherit;
   max-height: none;
   border-radius: 20px;
@@ -172,7 +172,6 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-close {
   display: block;
-  padding-bottom:8px !important;
   float: right;
   width: 74px;
   height: 74px;
