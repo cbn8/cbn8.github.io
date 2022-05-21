@@ -178,7 +178,9 @@ body.lb-disable-scrolling {
   float: right;
   width: 30px;
   height: 30px;
-  background: url(https://nathaniellr.github.io/cbn/images/close.png) top right no-repeat;
+  background: url(https://nathaniellr.github.io/cbn/images/close.png);
+  background-repeat: no-repeat;
+  background-size: cover;
   text-align: right;
   outline: none;
   filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
