@@ -122,7 +122,7 @@ body.lb-disable-scrolling {
   -o-transition: opacity 0.6s;
   transition: opacity 0.6s;
 }
-.lb-nav a.lb-next:before {
+.lb-next:before {
   font-family: Material Symbols Outlined;
   content: '\e5cd';
 }
