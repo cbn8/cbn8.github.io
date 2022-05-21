@@ -176,8 +176,8 @@ body.lb-disable-scrolling {
 .lb-data .lb-close {
   display: block;
   float: right;
-  width: 30px;
-  height: 30px;
+  width: 64px;
+  height: 64px;
   background: url(https://nathaniellr.github.io/cbn/images/close.png);
   background-repeat: no-repeat;
   background-size: cover;
