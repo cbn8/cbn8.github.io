@@ -1854,3 +1854,10 @@
     -o-transition: color .5s linear !important;
     transition: color .5s linear !important;
 }
+
+.super-navbar__menu {
+  -webkit-transition:height 200ms ease-in;
+    -moz-transition:height 200ms ease-in;
+    -o-transition:height 200ms ease-in;
+    transition:height 200ms ease-in;
+}
