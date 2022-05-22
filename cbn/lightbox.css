@@ -173,6 +173,7 @@ body.lb-disable-scrolling {
 
 .lb-data .lb-close {
   display: block;
+  z-index: 99999;
   float: right;
   width: 68px;
   height: 68px;
