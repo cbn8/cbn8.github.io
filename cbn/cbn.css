@@ -1223,7 +1223,7 @@
     top: 0;
     height: 154px !important;
     margin: 0 auto !important;
-    max-width: 100% !important;
+    max-width: 1308px !important;
     width: 100% !important;
     padding: 2rem 1rem 1rem !important;
     background: var(--bg) !important;
@@ -1651,8 +1651,7 @@
   /* Mobile Menu Width Override */
   @media (max-width: 767.98px) {
   .super-navbar {
-    margin-left: 24px !important;
-    margin-right: 24px !important;
+    max-width: 300px !important;
   } }
     
     .super-content .notion-collection-gallery.large .notion-collection-card { 
