@@ -1663,7 +1663,8 @@
   /* Mobile Menu Width Override */
   @media (max-width: 767.98px) {
   .super-navbar {
-    max-width: 50%;
+    margin-left: 24px !important;
+    margin-right: 24px !important;
   } }
     
     .super-content .notion-collection-gallery.large .notion-collection-card { 
