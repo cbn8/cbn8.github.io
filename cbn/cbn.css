@@ -1250,7 +1250,7 @@
         letter-spacing: 0.125rem !important;
         padding: 0 !important;
         margin: 0 1.25rem !important;
-        transition: all 1.2s all !important;
+        transition: all 0.2s all !important;
         display: flex !important; }
         .super-navbar .super-navbar__content .super-navbar__item-list .super-navbar__item:hover {
           opacity: 1 !important;
