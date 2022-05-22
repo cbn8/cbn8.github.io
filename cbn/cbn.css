@@ -1263,8 +1263,8 @@
           opacity: 1 !important;
           padding: 0 !important; }
         .super-navbar .super-navbar__content .super-navbar__actions .super-navbar__menu-open svg {
-          width: 1.875rem !important;
-          height: 1.875rem !important;
+          width: 2.618rem !important;
+          height: 2.618rem !important;
           stroke: var(--contrast) !important; }
     .super-navbar .super-navbar__menu-wrapper {
       width: 100% !important;
@@ -1840,4 +1840,8 @@
     -webkit-transform: scale(1) rotateZ(360deg);
             transform: scale(1) rotateZ(360deg);
   }
+}
+
+.super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close {
+    background: transparent;
 }
