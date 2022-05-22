@@ -877,7 +877,11 @@
     display: inline-block !important;
     text-decoration: none !important;
     border: none !important;
-    transition: all 0.2s ease-in-out !important; }
+    -webkit-transition: color .5s linear;
+    -moz-transition: color .5s linear;
+    -ms-transition: color .5s linear;
+    -o-transition: color .5s linear;
+    transition: color .5s linear; }
     .notion-semantic-string .link:hover,
     .notion-semantic-string .notion-link:hover,
     .link:hover,
