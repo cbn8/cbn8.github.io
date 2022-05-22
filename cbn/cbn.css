@@ -1287,7 +1287,7 @@
           height: 1.875rem !important;
           stroke: var(--contrast) !important; }
       .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-item-list {
-        background: var(--accent) !important; }
+        background: transparent !important; }
         @media (max-width: 767.98px) {
           .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-item-list {
             padding-bottom: 0.5rem !important; } }
