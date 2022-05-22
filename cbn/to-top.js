@@ -1,4 +1,3 @@
-setTimeout(function(){
 (function($) { "use strict";
 
 	$(document).ready(function(){"use strict";
@@ -36,6 +35,4 @@ setTimeout(function(){
 		
 	});
 	
-})(jQuery); 
-
-}, 500); 
+})(jQuery);
