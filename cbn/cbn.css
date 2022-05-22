@@ -1847,7 +1847,7 @@
   }
 }
 
-.notion-link super-navbar__item {
+.notion-link {
     -webkit-transition: color .5s linear !important;
     -moz-transition: color .5s linear !important;
     -ms-transition: color .5s linear !important;
