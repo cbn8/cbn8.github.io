@@ -1716,7 +1716,7 @@
 	font-size: 32px;
 	opacity: 0.3;
 	background: black; /* --- Pijl hover kleur --- */
-	background-clip: text;
+	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	left: 0;
 	top: 0;
