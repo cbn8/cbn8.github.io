@@ -1223,7 +1223,7 @@
     top: 0;
     height: 154px !important;
     margin: 0 auto !important;
-    max-width: 1308px !important;
+    max-width: 100% !important;
     width: 100% !important;
     padding: 2rem 1rem 1rem !important;
     background: var(--bg) !important;
@@ -1634,18 +1634,6 @@
       height:106px !important;
     }
 
-    /* Primary Nav */
-      .super-navbar {
-      height:154px !important;
-      position:fixed;
-      border-radius: 0px 0px 20px 20px;
-      background: rgba(255, 255, 255, 0.2) !important;
-      width: 100%;
-      max-width: 1308px !important;
-      backdrop-filter: blur(16px);
-      transition: top 0.7s ease-in-out !important;
-    }
-    
     /* Desktop Margin Overrides (Living Together) */
   @media (min-width: 767.98px) {
   #block-34c604d5bd0c4408817102b7c50e0109, #block-e9647d773252404dbad72d3c54b1815e, #block-7c5bd3bfd42048fdb72a8ba37c6c4e5a, #block-e06a3e830e0445e38062d99146bb5a96, #block-63bc744334a44c7396b9d467231f5874, #block-b5452fac9f934e00bd4ebb65c33695cf, #block-f10e68b597084a9ba3bcbdcbafb0f3ef, #block-da0516454ce94b99bffd5c1a9b483ee8, #block-19db224e40b64463a3a6758447961189, #block-f3b52bb66eb6457e890cc1c2280193b4, #block-2d43517303b347b298d98185ef3a14c6, #block-c2bdbc871a7443b2a09dbb7a299f31c0, #block-007cac95889c4b70850579c1bb45a530, #block-fbc35b1255244e7e930552f5102bc45b, #block-c46c41c42bd347edaaabdcbeb664b61a, #block-1ec05358afc6495f85c45648e109b99a, #block-a77c9b454c7a4b2282ac77ab89d96459 {
