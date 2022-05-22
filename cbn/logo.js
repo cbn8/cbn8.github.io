@@ -12,7 +12,7 @@
     //Make your content a heroe
     $.fn.transformHeroes = function() {
         //Variables
-        var perspective = '500px',
+        var perspective = '100px',
         delta = 20,
         width = this.width(),
         height = this.height(),
