@@ -1,40 +1,25 @@
-//This script is not mine. It's originally from here: https://medium.com/@mariusc23/hide-header-on-scroll-down-show-on-scroll-up-67bbaae9a78c
+const nav = document.querySelector('.super-navbar')
+const { height } = nav.getBoundingClientRect()
 
-// Hide Header on on scroll down
-var didScroll;
-var lastScrollTop = 0;
-var delta = 5;
-var navbarHeight = $(".super-navbar").outerHeight();
+const setRangeBetween = (min, max) => number =>
+  Math.min(Math.max(number, min), max)
 
-$(window).scroll(function(event){
-    didScroll = true;
-});
+const limitTransformFor = setRangeBetween(0, height)
 
-setInterval(function() {
-    if (didScroll) {
-        hasScrolled();
-        didScroll = false;
-    }
-}, 0);
+let lastScrollY = 0
 
-function hasScrolled() {
-    var st = $(this).scrollTop();
-    
-    // Make sure they scroll more than delta
-    if(Math.abs(lastScrollTop - st) <= delta)
-        return;
-    
-    // If they scrolled down and are past the navbar, add class .nav-up.
-    // This is necessary so you never see what is "behind" the navbar.
-    if (st > lastScrollTop && st > navbarHeight){
-        // Scroll Down
-        $('.super-navbar').css("top", -navbarHeight);
-    } else { 
-        // Scroll Up
-        if(st + $(window).height() < $(document).height()) {
-            $('#nav').css("top", "0px");
-        }
-    }
-    
-    lastScrollTop = st;
+const handleScroll = () => {
+  let { scrollY } = window
+  let navTransform = parseInt(nav.style.transform.replace(/[^0-9\.]/g, ''), 10)
+  let diff = limitTransformFor(navTransform - (lastScrollY - scrollY))
+  if(scrollY >= lastScrollY) {
+    nav.style.transform = `translateY(-${ diff > 0 ? diff : limitTransformFor(scrollY) }px)`
+  } else { 
+    nav.style.transform = `translateY(-${diff}px)`
+  }
+  
+  lastScrollY = scrollY
 }
+
+window.addEventListener('scroll', handleScroll)
+
