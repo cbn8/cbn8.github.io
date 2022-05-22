@@ -1274,8 +1274,8 @@
       width: 100% !important;
       height: 100% !important; }
       .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu {
-        border-radius: 0px 0px 20px 20px;
-        background: rgba(255, 255, 255, 0.2) !important;
+        border-radius: 20px 20px 20px 20px;
+        background: rgba(255, 255, 255, 1) !important;
         backdrop-filter: blur(16px); }
       .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close {
         height: 2.9rem !important;
