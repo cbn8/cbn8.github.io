@@ -1276,7 +1276,7 @@
         right: 0.9rem !important;
         top: 1.1875rem !important;
         padding: 0 !important;
-        background: var(--accent) !important;
+        background: transparent !important;
         opacity: 1 !important; }
         .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close svg {
           width: 1.875rem !important;
@@ -1840,8 +1840,4 @@
     -webkit-transform: scale(1) rotateZ(360deg);
             transform: scale(1) rotateZ(360deg);
   }
-}
-
-.super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close {
-    background: transparent;
 }
