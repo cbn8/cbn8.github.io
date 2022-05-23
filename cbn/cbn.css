@@ -1839,7 +1839,7 @@
     }
   }
 
-/* --- Override for Soft Fade Links --- */
+/* --- Override for Fancy Fade Links --- */
 .notion-link {
     -webkit-transition: color .5s linear !important;
     -moz-transition: color .5s linear !important;
