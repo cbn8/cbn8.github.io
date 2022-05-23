@@ -1270,7 +1270,8 @@
         .super-navbar .super-navbar__content .super-navbar__actions .super-navbar__menu-open svg {
           width: 2.500rem !important;
           height: 2.500rem !important;
-          stroke: var(--contrast) !important; }
+          stroke: var(--contrast) !important;
+          margin-right: 24px; }
     .super-navbar .super-navbar__menu-wrapper {
       width: 100% !important;
       height: 100% !important; }
