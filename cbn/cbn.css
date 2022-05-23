@@ -1229,7 +1229,7 @@
     padding-right: calc(env(safe-area-inset-right) + 96px);
     padding-top: 24px !important;
     background: var(--bg) !important;
-    background: rgba(255, 255, 255, 0.2) !important;
+    background: rgba(255, 255, 255, 0.62) !important;
     backdrop-filter: blur(16px); }
     @media (max-width: 1199.98px) {
       .super-navbar {
