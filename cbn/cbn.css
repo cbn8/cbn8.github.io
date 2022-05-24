@@ -1848,6 +1848,14 @@
     transition: color .5s linear !important;
 }
 
+.openin {
+  display:inline-flex;
+}
+
+.openin p {
+flex:1;
+}
+
 .openin img {
   width: 38px;
 }
