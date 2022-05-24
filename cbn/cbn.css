@@ -1853,7 +1853,8 @@
 /* --- Custom 'Open In' --- */
 .openin-img {
   display:inline-block;
-  width:100px;
+  width:38px;
+  height:38px;
 }
 
 .openin-label {
