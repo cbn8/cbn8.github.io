@@ -1862,7 +1862,7 @@
 .openin-figma {
   width:36px;
   height:36px;
-  background-image:url("https://nathaniellr.github.io/cbn/images/figma.png");
+  background-image:url("https://nathaniellr.github.io/cbn/img/icons/figma.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -1870,7 +1870,7 @@
 .openin-notion {
   width:36px;
   height:36px;
-  background-image: url("https://nathaniellr.github.io/cbn/images/notion.png");
+  background-image: url("https://nathaniellr.github.io/cbn/img/icons/notion.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
@@ -1878,7 +1878,7 @@
 .openin-maze {
   width:36px;
   height:36px;
-  background-image:url("https://nathaniellr.github.io/cbn/images/maze.png");
+  background-image:url("https://nathaniellr.github.io/cbn/img/icons/maze.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
