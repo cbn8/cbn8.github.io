@@ -1851,19 +1851,14 @@
 }
 
 /* --- Custom 'Open In' --- */
-.openin {
+.openin-img {
+  display:inline-block;
   width:100px;
 }
 
-.openin-item {
+.openin-label {
 display:inline-block;
 vertical-align: middle;
 width:100px;
-margin-top: auto;
-margin-bottom: auto;
-}
-
-.openin img {
-  width: 38px;
 }
 
