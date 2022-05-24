@@ -1848,6 +1848,8 @@
     transition: color .5s linear !important;
 }
 
+
+/* --- Custom 'Open In' --- */
 .openin {
   display:inline-flex;
 }
@@ -1855,6 +1857,10 @@
 .openin p {
 flex:1;
 }
+
+.openin-label {
+  width:100px;
+  }
 
 .openin img {
   width: 38px;
