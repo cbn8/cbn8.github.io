@@ -1860,8 +1860,13 @@ flex:1;
 
 .openin-label {
   width:100px;
+  margin-left: 12px;
+  margin-top: auto;
+  margin-bottom: auto;
+
   }
 
 .openin img {
   width: 38px;
 }
+
