@@ -1852,7 +1852,7 @@
 
 /* --- Custom 'Open In' --- */
 .openin {
-  display:inline-block
+  display:inline-block;
   text-align: center;
 }
 
