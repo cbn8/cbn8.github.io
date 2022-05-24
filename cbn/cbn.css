@@ -1847,3 +1847,7 @@
     -o-transition: color .5s linear !important;
     transition: color .5s linear !important;
 }
+
+.openin img {
+  width: 38px;
+}
