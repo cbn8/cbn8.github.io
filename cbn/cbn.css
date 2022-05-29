@@ -1870,38 +1870,38 @@
 }
 
 .openin-figma {
-  width:36px;
-  height:36px;
+  width:30px;
+  height:30px;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/figma.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .openin-sheets {
-  width:36px;
-  height:36px;
+  width:30px;
+  height:30px;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/sheets.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .openin-notion {
-  width:36px;
-  height:36px;
+  width:30px;
+  height:30px;
   background-image: url("https://nathaniellr.github.io/cbn/img/icons/notion.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .openin-maze {
-  width:36px;
-  height:36px;
+  width:30px;
+  height:30px;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/maze.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .openin-label {
-line-height:36px;
+line-height:30px;
 background-color:transparent;
 }
