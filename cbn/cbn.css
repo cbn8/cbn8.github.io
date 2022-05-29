@@ -1874,6 +1874,14 @@
   background-repeat:no-repeat;
 }
 
+.openin-sheets {
+  width:36px;
+  height:36px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/icons/sheets.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
 .openin-notion {
   width:36px;
   height:36px;
@@ -1894,4 +1902,3 @@
 line-height:36px;
 background-color:transparent;
 }
-
