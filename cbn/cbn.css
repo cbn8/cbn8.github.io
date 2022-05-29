@@ -1600,6 +1600,8 @@
           border-radius: 0.25rem !important; }
   
   .notion-bulleted-list {
+    -webkit-padding-start: calc(1.2em) !important;
+    padding-inline-start: calc(1.2em) !important;
     margin: 0 !important;
     margin-bottom: 0px !important;
     line-height: 1.75 !important;
