@@ -1861,9 +1861,13 @@
 
 .openin {
   display:inline-flex;
+  text-align:center;
   height:36px;
-  background-color:transparent;
-  margin-right:2.5rem;
+  padding:0.368rem;
+  justify-content:center;
+  background-color:#cccccc;
+  margin-right:1.618rem;
+  border-radius:10px;
 }
 
 .openin-figma {
