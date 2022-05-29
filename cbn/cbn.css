@@ -1853,13 +1853,17 @@
 }
 
 /* --- Custom 'Open In' --- */
+.openin-wrapper {
+  display:flex;
+  flex-direction:row;
+  background-color:transparent;
+}
+
 .openin {
   display:inline-flex;
-  height:auto;
+  height:36px;
   background-color:transparent;
-  align-items:center;
-  margin-bottom:1rem;
-  margin-right:3rem;
+  margin-right:2.5rem;
 }
 
 .openin-figma {
@@ -1878,14 +1882,6 @@
   background-repeat:no-repeat;
 }
 
-.openin-sheets {
-  width:36px;
-  height:36px;
-  background-image:url("https://nathaniellr.github.io/cbn/img/icons/sheets.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-
 .openin-maze {
   width:36px;
   height:36px;
@@ -1896,8 +1892,6 @@
 
 .openin-label {
 line-height:36px;
-height:36px;
-padding-left: 8px;
 background-color:transparent;
 }
 
