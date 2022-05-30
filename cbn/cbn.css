@@ -1944,7 +1944,7 @@ line-height:1.75 !important;
   display:inline-flex;
   height:auto;
   background-color:transparent;
-  align-items:center;
+  align-items:flex-start;
   margin-bottom:2rem;
 }
 
