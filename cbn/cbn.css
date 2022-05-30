@@ -1891,6 +1891,7 @@ background-color:transparent;
 
 .competitor {
   display:inline-flex;
+  height:auto;
   margin-bottom:2rem;
   background-color:transparent;
   align-items:center;
