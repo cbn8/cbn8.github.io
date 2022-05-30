@@ -1905,3 +1905,34 @@
 line-height:30px;
 background-color:transparent;
 }
+
+/* Hills */
+.hill-wrapper {
+  display:flex;
+  flex-direction:column;
+  background-color:transparent;
+  width:fit-content;
+}
+
+.hill {
+  display:inline-flex;
+  height:auto;
+  background-color:transparent;
+  align-items:center;
+  margin-bottom:3rem;
+}
+
+.hill-icon {
+  width:66px;
+  height:66px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/icons/hill.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.hill-info {
+line-height:66px;
+height:66px;
+padding-left: 1.618rem;
+background-color:transparent;
+}
