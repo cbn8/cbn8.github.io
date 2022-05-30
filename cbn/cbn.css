@@ -1947,7 +1947,6 @@ background-color:transparent;
   display:inline-flex;
   background-color:transparent;
   align-items:center;
-  margin-bottom:3rem;
 }
 
 .competitor-neighbors {
@@ -1956,6 +1955,7 @@ background-color:transparent;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/neighbors.png");
   background-size:cover;
   background-repeat:no-repeat;
+  margin-bottom:3rem;
 }
 
 .competitor-nextdoor {
@@ -1964,6 +1964,7 @@ background-color:transparent;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/nextdoor.png");
   background-size:cover;
   background-repeat:no-repeat;
+  margin-bottom:3rem;
 }
 
 .competitor-lotsa {
