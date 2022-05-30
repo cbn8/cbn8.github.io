@@ -1864,8 +1864,8 @@
   display:inline-flex;
   height:auto;
   background-color:transparent;
-  align-items:center;
-  margin-bottom:2rem;
+  align-items:flex-start;
+  margin-bottom:0rem;
 }
 
 .hill-icon {
