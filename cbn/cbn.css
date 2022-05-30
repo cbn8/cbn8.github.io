@@ -1934,3 +1934,47 @@ background-color:transparent;
 padding-left: 1.618rem;
 background-color:transparent;
 }
+
+/* Competitors */
+.competitor-wrapper {
+  display:flex;
+  flex-direction:column;
+  background-color:transparent;
+  width:fit-content;
+}
+
+.competitor {
+  display:inline-flex;
+  background-color:transparent;
+  align-items:center;
+  margin-bottom:3rem;
+}
+
+.competitor-neighbors {
+  min-height:66px;
+  min-width:66px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/lt/neighbors.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.competitor-nextdoor {
+  min-height:66px;
+  min-width:66px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/lt/nextdoor.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.competitor-lotsa {
+  min-height:66px;
+  min-width:66px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/lt/lotsa.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.competitor-info {
+padding-left: 1.618rem;
+background-color:transparent;
+}
