@@ -1865,7 +1865,7 @@
   height:auto;
   background-color:transparent;
   align-items:center;
-  margin-bottom:1rem;
+  margin-bottom:2rem;
 }
 
 .hill-icon {
@@ -1891,7 +1891,7 @@ background-color:transparent;
 
 .competitor {
   display:inline-flex;
-  margin-bottom:1rem;
+  margin-bottom:2rem;
   background-color:transparent;
   align-items:center;
 }
