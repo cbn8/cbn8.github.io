@@ -1877,7 +1877,7 @@
 }
 
 .hill-info {
-padding-left: 1rem;
+padding-left: 1.618rem;
 background-color:transparent;
 }
 
@@ -1891,9 +1891,9 @@ background-color:transparent;
 
 .competitor {
   display:inline-flex;
-  margin-bottom:2rem;
+  margin-bottom:0rem;
   background-color:transparent;
-  align-items:center;
+  align-items:flex-start;
 }
 
 .competitor-neighbors {
@@ -1921,6 +1921,6 @@ background-color:transparent;
 }
 
 .competitor-info {
-padding-left: 1rem;
+padding-left: 1.618rem;
 background-color:transparent;
 }
