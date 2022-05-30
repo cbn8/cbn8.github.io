@@ -1869,8 +1869,8 @@
 }
 
 .hill-icon {
-  min-height:66px;
-  min-width:66px;
+  min-height:48px;
+  min-width:48px;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/hill.png");
   background-size:cover;
   background-repeat:no-repeat;
@@ -1897,24 +1897,24 @@ background-color:transparent;
 }
 
 .competitor-neighbors {
-  min-height:66px;
-  min-width:66px;
+  min-height:48px;
+  min-width:48px;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/neighbors.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .competitor-nextdoor {
-  min-height:66px;
-  min-width:66px;
+  min-height:48px;
+  min-width:48px;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/nextdoor.png");
   background-size:cover;
   background-repeat:no-repeat;
 }
 
 .competitor-lotsa {
-  min-height:66px;
-  min-width:66px;
+  min-height:48px;
+  min-width:48px;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/lotsa.png");
   background-size:cover;
   background-repeat:no-repeat;
