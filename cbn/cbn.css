@@ -1923,7 +1923,7 @@ background-color:transparent;
 }
 
 .hill-icon {
-  height:3rem;
+  min-height:66px;
   min-width:66px;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/hill.png");
   background-size:cover;
@@ -1945,6 +1945,7 @@ background-color:transparent;
 
 .competitor {
   display:inline-flex;
+  margin-bottom:3rem;
   background-color:transparent;
   align-items:center;
 }
@@ -1955,7 +1956,6 @@ background-color:transparent;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/neighbors.png");
   background-size:cover;
   background-repeat:no-repeat;
-  margin-bottom:3rem;
 }
 
 .competitor-nextdoor {
@@ -1964,7 +1964,6 @@ background-color:transparent;
   background-image:url("https://nathaniellr.github.io/cbn/img/lt/nextdoor.png");
   background-size:cover;
   background-repeat:no-repeat;
-  margin-bottom:3rem;
 }
 
 .competitor-lotsa {
