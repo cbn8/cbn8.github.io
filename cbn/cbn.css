@@ -1931,3 +1931,50 @@ font-size: 1.125rem !important;
 color: var(--contrast) !important;
 line-height:1.75 !important;
   }
+
+/* Statements */
+.statement-wrapper {
+  display:flex;
+  flex-direction:column;
+  background-color:transparent;
+  width:fit-content;
+}
+
+.statement {
+  display:inline-flex;
+  height:auto;
+  background-color:transparent;
+  align-items:center;
+  margin-bottom:2rem;
+}
+
+.statement-anthony {
+  min-height:48px;
+  min-width:48px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/lt/anthony-icon.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.statement-martha {
+  min-height:48px;
+  min-width:48px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/lt/martha-icon.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.statement-rebecca {
+  min-height:48px;
+  min-width:48px;
+  background-image:url("https://nathaniellr.github.io/cbn/img/lt/rebecca-icon.png");
+  background-size:cover;
+  background-repeat:no-repeat;
+}
+
+.statement-info {
+padding-left: 1.618rem;
+background-color:transparent;
+}
+
+  
