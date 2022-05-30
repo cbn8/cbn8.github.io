@@ -1870,8 +1870,8 @@
 }
 
 .hill-icon {
-  min-height:48px;
-  min-width:48px;
+  min-height:1rem;
+  min-width:1rem;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/hill.png");
   background-size:cover;
   background-repeat:no-repeat;
