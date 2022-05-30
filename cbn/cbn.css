@@ -1931,7 +1931,3 @@ font-size: 1.125rem !important;
 color: var(--contrast) !important;
 line-height:1.75 !important;
   }
-
-  a.section-text {
-    text-decoration: none;
-  }
