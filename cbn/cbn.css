@@ -1923,8 +1923,8 @@ background-color:transparent;
 }
 
 .hill-icon {
-  width:66px;
-  height:66px;
+  height:3rem;
+  min-width:66px;
   background-image:url("https://nathaniellr.github.io/cbn/img/icons/hill.png");
   background-size:cover;
   background-repeat:no-repeat;
