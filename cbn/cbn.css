@@ -1852,60 +1852,6 @@
     transition: color .5s linear !important;
 }
 
-/* --- Custom 'Open In' --- */
-.openin-wrapper {
-  display:flex;
-  flex-direction:row;
-  background-color:transparent;
-}
-
-.openin {
-  display:inline-flex;
-  text-align:center;
-  padding:0.368rem;
-  justify-content:center;
-  background-color:#cccccc;
-  margin-right:1.618rem;
-  border-radius:10px;
-}
-
-.openin-figma {
-  width:30px;
-  height:30px;
-  background-image:url("https://nathaniellr.github.io/cbn/img/icons/figma.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-
-.openin-sheets {
-  width:30px;
-  height:30px;
-  background-image:url("https://nathaniellr.github.io/cbn/img/icons/sheets.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-
-.openin-notion {
-  width:30px;
-  height:30px;
-  background-image: url("https://nathaniellr.github.io/cbn/img/icons/notion.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-
-.openin-maze {
-  width:30px;
-  height:30px;
-  background-image:url("https://nathaniellr.github.io/cbn/img/icons/maze.png");
-  background-size:cover;
-  background-repeat:no-repeat;
-}
-
-.openin-label {
-line-height:30px;
-background-color:transparent;
-}
-
 /* Hills */
 .hill-wrapper {
   display:flex;
@@ -1919,7 +1865,7 @@ background-color:transparent;
   height:auto;
   background-color:transparent;
   align-items:center;
-  margin-bottom:3rem;
+  margin-bottom:2rem;
 }
 
 .hill-icon {
@@ -1931,7 +1877,7 @@ background-color:transparent;
 }
 
 .hill-info {
-padding-left: 1.618rem;
+padding-left: 1rem;
 background-color:transparent;
 }
 
@@ -1945,7 +1891,7 @@ background-color:transparent;
 
 .competitor {
   display:inline-flex;
-  margin-bottom:3rem;
+  margin-bottom:2rem;
   background-color:transparent;
   align-items:center;
 }
@@ -1975,6 +1921,6 @@ background-color:transparent;
 }
 
 .competitor-info {
-padding-left: 1.618rem;
+padding-left: 1rem;
 background-color:transparent;
 }
