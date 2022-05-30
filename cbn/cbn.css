@@ -1864,7 +1864,7 @@
   display:inline-flex;
   height:auto;
   background-color:transparent;
-  align-items:flex-start;
+  align-items:center;
   margin-bottom:0rem;
 }
 
@@ -1893,7 +1893,7 @@ background-color:transparent;
   display:inline-flex;
   margin-bottom:0rem;
   background-color:transparent;
-  align-items:flex-start;
+  align-items:center;
 }
 
 .competitor-neighbors {
