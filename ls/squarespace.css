@@ -1,0 +1,682 @@
+/* Cory & Nate were here, just sayin'. */
+
+/* Google Font 'Manrope' Variable  */
+@font-face {
+  font-family: "ManropeRegular";
+  src: url("https://static1.squarespace.com/static/6270617431ee8f2bd38f1c71/t/6272eb3ec16f833d9ef90770/1651698494884/Manrope-VariableFont_wght.ttf");
+}
+
+* {
+  font-family: "ManropeRegular" !important;
+  letter-spacing: 0.6px;
+}
+
+/* Back to Collections */
+
+/* Go Back in Gallery */
+.goback {
+  height: auto;
+  display: flex;
+  background-color: transparent;
+  align-items: center;
+}
+
+.goback-arrow {
+  width: 42px;
+  height: 42px;
+  background-image: url("https://nathaniellr.github.io/ls/img/goback.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.goback-label {
+  padding-left: 8px;
+  background-color: transparent;
+}
+
+/* Hides 'GoBack Label' on Mobile */
+@media only screen and (max-width: 640px) {
+  .goback-label {
+    display: none;
+  }
+}
+
+/* Centers 'Weddings' Gallery and 'GoBack' On Mobile */
+@media only screen and (max-width: 640px) {
+  div#page-section-6273fc2f0aa29655a6241e2e {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Removes Padding on Back to Collection Mobile */
+@media only screen and (max-width: 640px) {
+  div#block-yui_3_17_2_1_1654201255558_1842,
+  div#block-b24ff1f25e87d0160d0b,
+  div#block-7b3560880b5070cdd614 {
+    padding-right: 0px !important;
+  }
+}
+
+/* Centers Back to Collections Vertically on 'Weddings' */
+section[data-section-id="6273fc2f0aa29655a6241e2e"] {
+  display: flex;
+  align-items: end;
+  z-index: 1 !important;
+  overflow: hidden;
+}
+section[data-section-id="6273fc2f0aa29655a6241e2e"] .sqs-row {
+  display: flex;
+  align-items: end;
+  z-index: 1 !important;
+  overflow: hidden;
+  padding-bottom: 4px;
+}
+
+/* Centers 'Portraits' Gallery and 'GoBack' On Mobile */
+@media only screen and (max-width: 640px) {
+  div#page-section-6299d9fb98275202ded931d4 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Centers Back to Collections Vertically on 'Portraits' */
+section[data-section-id="6299d9fb98275202ded931d4"] {
+  display: flex;
+  align-items: end;
+  z-index: 1 !important;
+  overflow: hidden;
+}
+section[data-section-id="6299d9fb98275202ded931d4"] .sqs-row {
+  display: flex;
+  align-items: end;
+  z-index: 1 !important;
+  overflow: hidden;
+  padding-bottom: 4px;
+}
+
+/* Centers 'Maternity' Gallery and 'GoBack' On Mobile */
+@media only screen and (max-width: 640px) {
+  div#page-section-6299da2c119833641cedadd5 {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+/* Centers Back to Collections Vertically on 'Maternity' */
+section[data-section-id="6299da2c119833641cedadd5"] {
+  display: flex;
+  align-items: end;
+  z-index: 1 !important;
+  overflow: hidden;
+}
+section[data-section-id="6299da2c119833641cedadd5"] .sqs-row {
+  display: flex;
+  align-items: end;
+  z-index: 1 !important;
+  overflow: hidden;
+  padding-bottom: 4px;
+}
+
+/* Remove Link Underline */
+.sqs-block-html .sqs-block-content *:not(h1):not(h2):not(h3) {
+  text-decoration: none;
+}
+
+/* Expand Dividers Full Width */
+hr {
+  display: inline-block !important;
+}
+
+/* Horizontal Scroll Fix */
+body {
+  overflow-x: hidden;
+  overflow-y: visible;
+}
+
+/* Removes Background-Color on Header */
+.header {
+  top: 0rem !important;
+  background-color: transparent !important;
+}
+
+/* Navigation Font Size */
+.header-nav-item {
+  font-size: 17px;
+}
+
+/* Header CTA Button Styling */
+.header-actions-action .btn {
+  height: 2.382rem;
+  border-radius: 12px !important;
+  border-color: #959593 !important;
+  font-size: 1rem !important;
+  align-items: center;
+  display: inline-flex;
+  border-width: 2px !important;
+  box-shadow: rgba(67, 67, 67, 0.12) 0px 48px 100px 0px;
+}
+
+.header-actions-action .btn:before {
+  content: "";
+  background-image: url("https://nathaniellr.github.io/ls/img/booking.png");
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  display: inline-block;
+  margin-right: 8px;
+  height: 36px;
+  width: 36px;
+}
+
+/* Add On Icon Pricing */
+#add-ons:before {
+  content: "";
+  background-image: url("https://nathaniellr.github.io/ls/img/addon.png");
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  display: inline-block;
+  margin-right: 12px;
+  margin-top: -4px;
+  height: 36px;
+  width: 36px;
+  vertical-align: middle;
+}
+
+/* Travel Fees Icon Pricing */
+#travel-fees:before {
+  content: "";
+  background-image: url("https://nathaniellr.github.io/ls/img/travel.png");
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  display: inline-block;
+  margin-top: -4px;
+  margin-right: 12px;
+  height: 36px;
+  width: 36px;
+  vertical-align: middle;
+}
+
+/* Scale Up Grid Gallery - Strips Layout */
+.gallery-strips-item img {
+  transform: scale(1) !important;
+  transition: all ease-in-out 0.8s !important;
+}
+
+.gallery-strips-item:hover img {
+  border-radius: 12px;
+  transform: scale(1.04) !important;
+  transition: all ease-in-out 0.8s !important;
+}
+
+/* Gallery Styling */
+.gallery-strips-item {
+  box-shadow: rgba(0, 0, 0, 0.236) 0px 5px 15px,
+    rgba(0, 0, 0, 0.136) 0px 0px 0px 1px;
+  background-color: transparent !important;
+  border-radius: 12px !important;
+}
+
+/* Gallery Styling */
+.gallery-strips-item-wrapper {
+  border-radius: 12px !important;
+  background-color: transparent;
+}
+
+/* Fixes Gallery Top & Bottom Margins on Desktop */
+.gallery {
+  margin-top: -3rem !important;
+  margin-bottom: -1.8rem !important;
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+/* Fixes Gallery Top & Bottom Margins on Mobile */
+@media only screen and (max-width: 640px) {
+  .gallery {
+    margin-top: -1.2rem !important;
+    margin-bottom: -0rem !important;
+  }
+}
+
+/* Collections Card Styling */
+.list-item-content__title {
+  font-size: 2.236rem !important;
+}
+
+.list-item[data-is-card-enabled="true"] {
+  border-radius: 12px !important;
+  background-color: #f4f5f6 !important;
+  border: 0px solid #eeeeee !important;
+  padding-top: 34px !important;
+  padding-bottom: 34px !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(0, 0, 0, 0.12) 0px 6px 24px 0px inset,
+    rgba(0, 0, 0, 0.07) 0px 0px 0px 1px inset;
+  margin-bottom: 12px;
+  margin-top: 0px;
+  transition: background 0.4s, box-shadow 0.1s !important;
+}
+
+.list-item[data-is-card-enabled="true"]:hover {
+  background-color: #e4e4e4 !important;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(0, 0, 0, 0.03) 0px 6px 24px 0px inset,
+    rgba(0, 0, 0, 0.08) 0px 0px 0px 1px inset,
+    rgba(20, 37, 64, 0.16) 0px -2px 24px 0px inset;
+  transition: background 0.4s, box-shadow 0.1s !important;
+}
+
+.list-item img {
+  border-radius: 12px !important;
+}
+
+.user-items-list-carousel__media-container {
+  border-radius: 12px !important;
+  box-shadow: rgba(0, 0, 0, 0.236) 0px 5px 15px;
+}
+
+#block-yui_3_17_2_1_1651683176620_3589 {
+  width: 250px !important;
+  margin-top: 42px;
+}
+
+/* Social Icon Animation */
+.sqs-block-socialaccountlinks-v2 a {
+  overflow: visible;
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+  position: relative;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+.sqs-block-socialaccountlinks-v2 a:before {
+  pointer-events: none;
+  position: absolute;
+  z-index: 1000000;
+  content: "";
+  top: 100%;
+  left: 5%;
+  height: 10px;
+  width: 90%;
+  opacity: 0;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform, opacity;
+  transition-property: transform, opacity;
+}
+.sqs-block-socialaccountlinks-v2 a:hover,
+.sqs-block-socialaccountlinks-v2 a:focus,
+.sqs-block-socialaccountlinks-v2 a:active {
+  -webkit-transform: translateY(-5px);
+  transform: translateY(-5px);
+}
+.sqs-block-socialaccountlinks-v2 a:hover:before,
+.sqs-block-socialaccountlinks-v2 a:focus:before,
+.sqs-block-socialaccountlinks-v2 a:active:before {
+  opacity: 1;
+  -webkit-transform: translateY(5px);
+  transform: translateY(5px);
+}
+
+.social-icons-style-regular .sqs-use--icon {
+  fill: #000000 !important;
+}
+.social-icons-style-regular .sqs-svg-icon--wrapper:hover .sqs-use--icon {
+  fill: #b4b4b4 !important;
+}
+
+/* Explore More Image-Zoom */
+.sqs-block-image .image-block-outer-wrapper {
+  transform: scale(1) !important;
+  transition: all ease-in-out 0.8s !important;
+}
+
+.sqs-block-image .image-block-outer-wrapper:hover img {
+  transform: scale(1.03) !important;
+  transition: all ease-in-out 0.8s !important;
+}
+
+/* Pricing Card Styling */
+#block-dca99a8f42e4b50ab91f {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+}
+
+#block-40f114e4fea87ff212b2 {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+}
+
+#block-c7d69d1ca08aa941b958 {
+  background-color: #f2f2f2;
+  border-radius: 12px;
+  margin-right: 16px;
+  margin-left: 16px;
+  margin-bottom: 30px;
+}
+
+/* Image Caption Spacing Margin */
+figcaption.image-caption-wrapper {
+  margin-top: -25px !important;
+}
+.image-caption p {
+  margin-top: 0px;
+  margin-bottom: 0;
+}
+
+.user-items-list-carousel__arrow-icon-path {
+  stroke-width: 3px;
+}
+
+.user-items-list-carousel__arrow-button {
+  border-radius: 12px;
+  height: 62px;
+  width: 62px;
+}
+
+/* Pricing Table Chart */
+/* Space Between Boxes */
+.markdown-block {
+  margin-bottom: 32px;
+  margin-left: 26px;
+  margin-right: 26px;
+  padding-bottom: 40px !important;
+  padding-top: 35px !important;
+}
+/* Standard Session */
+div#block-yui_3_17_2_1_1651969573561_7077 {
+  text-align: center;
+  border-color: #eeeeee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(0, 0, 0, 0.12) 0px 6px 24px 0px inset,
+    rgba(0, 0, 0, 0.07) 0px 0px 0px 1px inset;
+}
+
+/* Wedding Silver */
+div#block-yui_3_17_2_1_1651969573561_8793.markdown-block {
+  background: #f4f5f6;
+  text-align: center;
+  border-color: #eeeeee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(0, 0, 0, 0.12) 0px 6px 24px 0px inset,
+    rgba(0, 0, 0, 0.07) 0px 0px 0px 1px inset;
+  background: #ffffff;
+  background: linear-gradient(76deg, #ffffff 10%, #cccccc 100%);
+}
+
+/* Wedding Gold */
+div#block-yui_3_17_2_1_1651969573561_11102 {
+  border-color: #eeeeee;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px,
+    rgba(0, 0, 0, 0.21) 0px 6px 24px 0px inset,
+    rgba(0, 0, 0, 0.07) 0px 0px 0px 1px inset;
+}
+
+/* Wedding Gold (ALL) */
+div#block-yui_3_17_2_1_1651969573561_11102 * {
+  color: #ffffff;
+  text-align: center;
+}
+/* Wedding Gold */
+div#block-yui_3_17_2_1_1651969573561_11102 a {
+  border: 2px solid #ffffff;
+}
+
+/* Add ons */
+div#block-yui_3_17_2_1_1654032512046_18807 {
+  border: 0px;
+  text-align: left;
+}
+
+/* Wedding Gold Gradient */
+div#block-yui_3_17_2_1_1651969573561_11102.markdown-block {
+  background: #ffffff;
+  background: linear-gradient(76deg, #3d3d3d 10%, #ffe979 100%);
+}
+/* Set border - corner */
+.markdown-block {
+  border: 0px solid #f8f8f8;
+  border-radius: 12px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* set zoom on hover */
+.markdown-block:hover {
+  transform: scale(1.03, 1.03);
+  -ms-transform: scale(1.03, 1.03);
+  -webkit-transform: scale(1.03, 1.03);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+}
+
+/* Remove List Dots */
+.markdown-block ul {
+  list-style: none;
+  padding-left: 0;
+}
+/* Remove Text Padding */
+.markdown-block p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+/* Price */
+.markdown-block h4 + p {
+  font-weight: 500;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+
+/* Space Between Title-Price */
+.markdown-block h4 {
+  margin-bottom: 2px;
+}
+
+/* Links */
+.markdown-block a {
+  background: #008aff;
+  background: -webkit-linear-gradient(135deg, #6b02ff 0%, #985bef 100%);
+  background: -o-linear-gradient(bottom right, #6b02ff, #985bef);
+  background: -moz-linear-gradient(bottom right, #008aff, #1ad2fd);
+  background: linear-gradient(135deg, #6b02ff 0%, #985bef 100%);
+  color: #fff;
+  border-radius: 12px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  display: inline-block;
+  border: 2px solid transparent;
+}
+
+/* Mobile Caraousel Arrows Fix */
+@media screen and (max-width: 575px) {
+  .user-items-list-carousel .desktop-arrows {
+    display: grid;
+  }
+  .user-items-list-carousel .mobile-arrows {
+    display: none;
+  }
+}
+
+/* Footer Mobile Center Logo */
+@media only screen and (max-width: 640px) {
+  #block-yui_3_17_2_1_1651683176620_3589,
+  #block-2cdfa34b56481f607176 {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Footer Mobile Center Social */
+@media only screen and (max-width: 640px) {
+  div#block-df8490171349387ffd7c {
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+/* Pricing Packages Padding Mobile Fix */
+@media only screen and (max-width: 640px) {
+  div#block-yui_3_17_2_1_1651969573561_7077,
+  div#block-yui_3_17_2_1_1651969573561_8793,
+  div#block-yui_3_17_2_1_1651969573561_11102 {
+    padding-top: 42px !important;
+    padding-bottom: 42px !important;
+  }
+}
+
+/* Pricing Packages Title Styling */
+h4#standard-session,
+h4#silver-wedding {
+  font-weight: 600;
+  color: #8b8b8b;
+  letter-spacing: 0.6px !important;
+}
+
+h4#gold-wedding {
+  font-weight: 600;
+  color: #ffffff;
+  letter-spacing: 0.4px !important;
+}
+
+/* Mobile Navigation CTA */
+.theme-btn--primary.btn {
+  border-radius: 12px !important;
+  border-color: #959593 !important;
+  font-size: 1rem !important;
+  align-items: center;
+  display: inline-flex;
+  border-width: 2px !important;
+  box-shadow: rgba(67, 67, 67, 0.12) 0px 48px 100px 0px;
+}
+
+.theme-btn--primary.btn:before {
+  content: "";
+  background-image: url("https://nathaniellr.github.io/ls/img/booking.png");
+  background-repeat: no-repeat;
+  background-size: contain, cover;
+  display: inline-block;
+  margin-right: 8px;
+  height: 36px;
+  width: 36px;
+}
+
+/* Price on Pricing Cards Styling */
+h2#-\31 -900,
+h2#-\33 75 {
+  color: #626262;
+}
+
+#collection-62714c8206a42c19d2fdc41d {
+  .field-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* Booking Form - Full Width */
+  .form-item:nth-child(5),
+  .form-item:nth-child(8),
+  .form-item:nth-child(9) {
+    width: 100% !important;
+  }
+
+  /* Booking Form - Left */
+  .form-item:nth-child(1),
+  .form-item:nth-child(3) {
+    width: 46% !important;
+    margin-right: 4%;
+  }
+  /* Booking Form - Right */
+  .form-item:nth-child(2),
+  .form-item:nth-child(4) {
+    width: 50% !important;
+  }
+}
+
+/* Booking Form - Addons Desktop */
+.form-item:nth-child(7) {
+  width: 79% !important;
+}
+
+/* Booking Form - Package Selection Desktop Fix */
+@media screen and (min-width: 768px) {
+  .form-item:nth-child(6) {
+    width: 20% !important;
+    margin-right: 1% !important;
+  }
+}
+
+/* Addons On Desktop Fix */
+@media screen and (min-width: 768px) {
+  fieldset#checkbox-6cf14668-fb39-4a85-8bb6-9dcd462066c4 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+/* Booking Form - Centering Tweaks */
+.option {
+  display: flex;
+  align-items: center;
+}
+
+/* Booking Form - Add on bottom margin on Mobile */
+@media only screen and (max-width: 640px) {
+  .option {
+    margin-bottom: 24px !important;
+  }
+}
+
+/* Booking Form - Centering Tweaks */
+label {
+  display: flex;
+  align-items: center;
+}
+
+.form-wrapper .field-list .field.checkbox input,
+.form-wrapper .field-list .field.radio input {
+  margin-right: 8px !important;
+}
+
+.form-wrapper .field-list .field .option {
+  display: flex;
+  align-items: center;
+}
+
+/* Booking Form Underline - Bottom margin */
+.form-wrapper .field-list .section.underline {
+  margin-bottom: 24px;
+}
+
+/* Booking Form Title Letter Spacing */
+.title {
+  letter-spacing: 0.4px !important;
+}
+
+/* H3 on Mobile -- Needed to be bigger. */
+@media (max-width: 640px) {
+  h3 {
+    font-size: 1.5rem !important;
+  }
+}
+
+/* Fix 'Explore More' Link Centering because SquareSpace sucks. */
+.sqs-block[class*="float-right"] {
+  margin-left: 0px !important;
+}
