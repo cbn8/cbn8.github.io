@@ -1220,7 +1220,7 @@
       margin-bottom: 2rem !important; }
   
   .super-navbar {
-    top: 0;
+    top: 16;
     height: 154px !important;
     margin: 0 auto !important;
     max-width: 1500px !important;
