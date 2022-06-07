@@ -1227,7 +1227,7 @@
     width: 100% !important;
     padding-left: calc(env(safe-area-inset-left) + 96px);
     padding-right: calc(env(safe-area-inset-right) + 96px);
-    padding-top: 32px !important;
+    padding-top: 24px !important;
     background: var(--bg) !important;
     background: rgba(255, 255, 255, 0.62) !important;
     backdrop-filter: blur(16px); }
