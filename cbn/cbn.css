@@ -1651,7 +1651,7 @@
   
   /* Horizontally Centers Text by Mobile MP4 on Living Together */
   @media (min-width: 767.98px) {
-  #block-e13ba41df10f4904945be72e71855788 {
+  #block-e13ba41df10f4904945be72e71855788, #block-15972254b43c40cf84ddebb11fc6f9a5  {
     margin-top: auto;
     margin-bottom: auto;
   } }
