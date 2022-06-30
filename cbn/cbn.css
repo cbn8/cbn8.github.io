@@ -2,7 +2,7 @@
     --bg: #FFF !important;
     --contrast: #000 !important;
     --accent: #0966FF !important;
-    --border-thickness-layout:0px;
+    --border-thickness-layout:0px !important;
   }
   
   body {
