@@ -1936,4 +1936,10 @@ font-size: 1.125rem !important;
 color: var(--contrast) !important;
 line-height:1.75 !important;
   }
+
+  /* Horizontally Centers Video Attributes on Mobile */
+  @media (min-width: 767.98px) {
+    .video  {
+      text-align:center !important;
+    } }
   
