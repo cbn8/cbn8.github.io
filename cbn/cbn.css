@@ -1939,7 +1939,7 @@ line-height:1.75 !important;
 
   /* Horizontally Centers Video Attributes on Mobile */
   @media (min-width: 767.98px) {
-    #block-2d3ea12dde17470bba44e234c9a44bdb, #block-6fe39b6fbbd84292b3097c2f1e6f5026  {
+    #block-2d3ea12dde17470bba44e234c9a44bdb, #block-6fe39b6fbbd84292b3097c2f1e6f5026 {
       align-self:center !important;
     } }
   
