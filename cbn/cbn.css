@@ -2939,8 +2939,8 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 }
 
 .hill-icon {
-  min-height: 2.5rem;
-  min-width: 2.5rem;
+  min-height: 1.2rem;
+  min-width: 1.2rem;
   background-image: url("https://nathaniellr.github.io/cbn/img/icons/hill.png");
   background-size: cover;
   background-repeat: no-repeat;
