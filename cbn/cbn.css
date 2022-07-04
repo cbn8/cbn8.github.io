@@ -2017,13 +2017,13 @@ img {
 
 .super-navbar {
   top: 0px;
-  height: 154px !important;
+  height: 148px !important;
   margin: 0 auto !important;
   max-width: 1500px !important;
   width: 100% !important;
   padding-left: calc(env(safe-area-inset-left) + 96px);
   padding-right: calc(env(safe-area-inset-right) + 96px);
-  padding-top: 24px !important;
+  padding-top: 1.786rem !important;
   background: var(--bg) !important;
   background: rgba(255, 255, 255, 0.62) !important;
   backdrop-filter: blur(16px);
