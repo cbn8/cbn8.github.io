@@ -2809,13 +2809,6 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   }
 }
 
-/* --- Hide Scroll to Top / Progress Bar on Mobile --- */
-@media (max-width: 767.98px) {
-  .progress-wrap {
-    display:contents !important;
-  }
-}
-
 /* --- Style for Lightbox On-Page Images --- */
 
 .lbox-img {
