@@ -2017,7 +2017,7 @@ img {
 
 .super-navbar {
   top: 0px;
-  height: 148px !important;
+  height: 116px !important;
   margin: 0 auto !important;
   max-width: 1500px !important;
   width: 100% !important;
@@ -2677,9 +2677,6 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 
 .notion-quote {
   font-size: 17px !important;
-}
-.super-navbar__logo-image {
-  height: 106px !important;
 }
 
 /* Horizontally Centers Text by Mobile MP4 on Living Together */
