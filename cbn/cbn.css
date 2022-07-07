@@ -1689,7 +1689,7 @@ img {
 .super-content .notion-collection-gallery.medium {
   display: grid !important;
   grid-column-gap: 4rem !important;
-  grid-row-gap: 4rem !important;
+  grid-row-gap: 1.5rem !important;
   border-top: none !important;
   grid-template-columns: repeat(2, 1fr) !important;
 }
