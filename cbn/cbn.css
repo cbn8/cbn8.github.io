@@ -2981,6 +2981,30 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   background-repeat: no-repeat;
 }
 
+.competitor-bandsintown {
+  min-height: 48px;
+  min-width: 48px;
+  background-image: url("https://nathaniellr.github.io/cbn/img/icons/bandsintown.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.competitor-eventbrite {
+  min-height: 48px;
+  min-width: 48px;
+  background-image: url("https://nathaniellr.github.io/cbn/img/icons/eventbrite.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.competitor-meetup {
+  min-height: 48px;
+  min-width: 48px;
+  background-image: url("https://nathaniellr.github.io/cbn/img/icons/meetup.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .competitor-info {
   padding-left: 0.5rem;
   background-color: transparent;
