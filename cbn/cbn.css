@@ -2952,7 +2952,8 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 
 .competitor {
   display: inline-flex;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  margin-top: 0.5rem;
   background-color: transparent;
   align-items: center;
 }
