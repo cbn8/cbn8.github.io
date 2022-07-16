@@ -2958,48 +2958,48 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 }
 
 .competitor-neighbors {
-  min-height: 48px;
-  min-width: 48px;
+  min-height: 36px;
+  min-width: 36px;
   background-image: url("https://nathaniellr.github.io/cbn/img/lt/neighbors.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .competitor-nextdoor {
-  min-height: 48px;
-  min-width: 48px;
+  min-height: 36px;
+  min-width: 36px;
   background-image: url("https://nathaniellr.github.io/cbn/img/lt/nextdoor.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .competitor-lotsa {
-  min-height: 48px;
-  min-width: 48px;
+  min-height: 36px;
+  min-width: 36px;
   background-image: url("https://nathaniellr.github.io/cbn/img/lt/lotsa.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .competitor-bandsintown {
-  min-height: 48px;
-  min-width: 48px;
+  min-height: 36px;
+  min-width: 36px;
   background-image: url("https://nathaniellr.github.io/cbn/img/icons/bandsintown.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .competitor-eventbrite {
-  min-height: 48px;
-  min-width: 48px;
+  min-height: 36px;
+  min-width: 36px;
   background-image: url("https://nathaniellr.github.io/cbn/img/icons/eventbrite.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .competitor-meetup {
-  min-height: 48px;
-  min-width: 48px;
+  min-height: 36px;
+  min-width: 36px;
   background-image: url("https://nathaniellr.github.io/cbn/img/icons/meetup.png");
   background-size: cover;
   background-repeat: no-repeat;
