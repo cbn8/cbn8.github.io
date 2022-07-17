@@ -2926,8 +2926,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   height: auto;
   background-color: transparent;
   align-items: center;
-  margin-bottom: 1rem;
-  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .hill-icon {
