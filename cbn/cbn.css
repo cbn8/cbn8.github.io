@@ -3024,3 +3024,32 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
     align-self: center !important;
   }
 }
+
+.insight-wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: transparent;
+  width: fit-content;
+}
+
+.insight {
+  display: inline-flex;
+  height: auto;
+  background-color: transparent;
+  align-items: center;
+  margin-bottom: 1.618rem;
+}
+
+.insight-percent {
+  display: flex;
+  min-height: 48px;
+  min-width: 48px;
+  font-size: 1.5rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.insight-text {
+  padding-left: 0.618rem;
+  background-color: transparent;
+}
