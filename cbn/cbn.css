@@ -3031,7 +3031,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 
 /* Hides Sections On Mobile */
 @media (max-width: 767.98px) {
-  #block-f3ec3c331e6f45d895e94f73309b8369 {
+  #block-f3ec3c331e6f45d895e94f73309b8369, #block-2d7959243ec24983a3ac66cce3223d0f {
     display: none !important;
   }
 }
