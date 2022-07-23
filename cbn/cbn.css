@@ -2354,7 +2354,7 @@ img {
 }
 [id*="writing-"] .color-gray {
   margin-bottom: 0.5rem !important;
-  color: rgba(var(--contrast), 0.5) !important;
+  color: #5a5a5a !important;
 }
 
 [id*="writing-"] .notion-image {
