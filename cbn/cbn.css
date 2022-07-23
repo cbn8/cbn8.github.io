@@ -1213,16 +1213,16 @@ h2.notion-heading {
   h2.notion-heading {
     letter-spacing: 0.25px !important;
     font-size: 2rem !important;
-    color:#5a5a5a !important;
+    color:#5C5F60 !important;
   }
 }
 
 h3,
 h3.notion-heading {
-  opacity: 0.5 !important;
   text-transform: uppercase !important;
   letter-spacing: 0.1rem !important;
   font-size: 1.1875rem !important;
+  color: #444749 !important;
   margin-top: 1rem !important;
   margin-bottom: 1.875rem !important;
 }
