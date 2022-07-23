@@ -3028,3 +3028,10 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
     align-self: center !important;
   }
 }
+
+/* Hides Sections On Mobile */
+@media (max-width: 767.98px) {
+  #block-f3ec3c331e6f45d895e94f73309b8369 {
+    display: none !important;
+  }
+}
