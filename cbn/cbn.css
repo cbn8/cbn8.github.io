@@ -3040,3 +3040,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
     display: none !important;
   }
 }
+
+.color-gray {
+  color: ##5a5a5a !important;
+}
