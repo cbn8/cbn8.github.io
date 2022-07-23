@@ -3024,14 +3024,16 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   #block-2d3ea12dde17470bba44e234c9a44bdb,
   #block-6fe39b6fbbd84292b3097c2f1e6f5026,
   #block-06d3f6654eaf4a46b4c757d92262f068,
-  #block-f376afdc706648179eefa46314f04fbb {
+  #block-f376afdc706648179eefa46314f04fbb,
+  #block-4aba9135ca2e48d4b670567249ca947c {
     align-self: center !important;
   }
 }
 
 /* Hides Sections On Mobile */
 @media (max-width: 767.98px) {
-  #block-f3ec3c331e6f45d895e94f73309b8369, #block-2d7959243ec24983a3ac66cce3223d0f {
+  #block-f3ec3c331e6f45d895e94f73309b8369,
+  #block-2d7959243ec24983a3ac66cce3223d0f {
     display: none !important;
   }
 }
