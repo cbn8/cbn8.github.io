@@ -1344,7 +1344,7 @@ img {
   background: var(--bg) !important;
 }
 .notion-text.color-gray {
-  opacity: 0.5 !important;
+  color:#8F9193 !important;
 }
 .notion-text .notion-text__content {
   letter-spacing: 0.025rem !important;
