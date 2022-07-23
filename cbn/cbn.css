@@ -1199,7 +1199,7 @@ h1.notion-heading {
 h2,
 h2.notion-heading {
   font-size: 2rem !important;
-  color:#5a5a5a !important;
+  color: #5a5a5a !important;
   font-weight: 700 !important;
   letter-spacing: 0.025rem !important;
   font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont,
@@ -1213,7 +1213,7 @@ h2.notion-heading {
   h2.notion-heading {
     letter-spacing: 0.25px !important;
     font-size: 2rem !important;
-    color:#5C5F60 !important;
+    color: #5c5f60 !important;
   }
 }
 
@@ -1344,7 +1344,7 @@ img {
   background: var(--bg) !important;
 }
 .notion-text.color-gray {
-  color:#8F9193 !important;
+  color: #8f9193 !important;
 }
 .notion-text .notion-text__content {
   letter-spacing: 0.025rem !important;
@@ -3022,7 +3022,9 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 /* Horizontally Centers iOS MP4's on Mobile */
 @media (max-width: 767.98px) {
   #block-2d3ea12dde17470bba44e234c9a44bdb,
-  #block-6fe39b6fbbd84292b3097c2f1e6f5026 {
+  #block-6fe39b6fbbd84292b3097c2f1e6f5026,
+  #block-06d3f6654eaf4a46b4c757d92262f068,
+  #block-cfb0ac3727674ce49eff2e729414db92 {
     align-self: center !important;
   }
 }
