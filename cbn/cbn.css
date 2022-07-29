@@ -2168,12 +2168,6 @@ img {
 }
 
 @media (max-width: 767.98px) {
-  #page-about .notion-image > div {
-    height: 20rem !important;
-  }
-}
-
-@media (max-width: 767.98px) {
   #page-about .notion-image img {
     object-fit: cover !important;
   }
