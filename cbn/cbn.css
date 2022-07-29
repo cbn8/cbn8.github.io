@@ -2108,7 +2108,7 @@ img {
 }
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu {
   border-radius: 20px 20px 20px 20px;
-  background: rgba(255, 255, 255, 1) !important;
+  background: #5c5f60 !important;
   backdrop-filter: blur(16px);
 }
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close {
@@ -2122,7 +2122,7 @@ img {
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close svg {
   width: 1.875rem !important;
   height: 1.875rem !important;
-  stroke: var(--contrast) !important;
+  stroke: #ffffff !important;
 }
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-item-list {
   background: transparent !important;
@@ -3041,6 +3041,15 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   }
 }
 
+/* Overrides Notion "gray" to Material Palette */
 .color-gray {
   color: #5a5a5a !important;
+}
+
+/* Overrides Mobile Menu Link Color */
+.super-navbar
+  .super-navbar__menu-wrapper.active
+  .super-navbar__menu-item-list
+  .super-navbar__item {
+  color: #ffffff !important;
 }
