@@ -2683,7 +2683,10 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   box-shadow: rgb(0 0 0 / 28%) 0px 5px 15px !important;
 }
 
-#block-fa7e8974388b412b9d822f1509f5c44b {
+/* Adds Box Shadow to Case Study Covers */
+#block-fa7e8974388b412b9d822f1509f5c44b,
+#block-9a29994d085a479ab586c7900e1e9499,
+#block-fca36ba7db4a477da9c5911a3173a39b {
   box-shadow: rgb(0 0 0 / 28%) 0px 5px 15px !important;
   border-radius: 20px !important;
 }
