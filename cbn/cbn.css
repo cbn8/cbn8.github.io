@@ -3,7 +3,7 @@
   --contrast: #000 !important;
   --accent: #0966ff !important;
   --border-thickness-layout: 0px !important;
-  --navbar-menu-background-color:#5c5f60 !important;
+  --navbar-menu-background-color: #5c5f60 !important;
 }
 
 body {
@@ -2092,7 +2092,7 @@ img {
   .super-navbar__button {
   opacity: 1 !important;
   padding: 0 !important;
-  stroke:#ffffff;
+  stroke: #ffffff;
 }
 .super-navbar
   .super-navbar__content
@@ -2111,6 +2111,7 @@ img {
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu {
   border-radius: 20px 20px 20px 20px;
   background: #5c5f60 !important;
+  color: #ffffff;
   backdrop-filter: blur(16px);
 }
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close {
