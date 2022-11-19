@@ -2125,7 +2125,7 @@ img {
   stroke: #ffffff !important;
 }
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-item-list {
-  background: transparent !important;
+  background: #5c5f60 !important;
 }
 @media (max-width: 767.98px) {
   .super-navbar
