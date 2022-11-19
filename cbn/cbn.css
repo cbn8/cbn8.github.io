@@ -2128,6 +2128,10 @@ img {
   height: 2.875rem !important;
   stroke: #ffffff !important;
 }
+.super-navbar__button super-navbar__menu-close {
+  width: 2.875rem !important;
+  height: 2.875rem !important;
+}
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-item-list {
   background: #5c5f60 !important;
 }
