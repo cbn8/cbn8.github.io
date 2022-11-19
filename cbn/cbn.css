@@ -2092,6 +2092,7 @@ img {
   .super-navbar__button {
   opacity: 1 !important;
   padding: 0 !important;
+  stroke:#ffffff;
 }
 .super-navbar
   .super-navbar__content
