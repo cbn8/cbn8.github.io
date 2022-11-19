@@ -2116,7 +2116,7 @@ img {
   right: 0.9rem !important;
   top: 1.1875rem !important;
   padding: 0 !important;
-  background: transparent !important;
+  background: #5c5f60 !important;
   opacity: 1 !important;
 }
 .super-navbar .super-navbar__menu-wrapper.active .super-navbar__menu-close svg {
