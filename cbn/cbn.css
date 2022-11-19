@@ -2128,7 +2128,7 @@ img {
   height: 2.875rem !important;
   stroke: #ffffff !important;
 }
-.super-navbar__button super-navbar__menu-close {
+.super-navbar__button super-navbar__menu-close svg {
   width: 2.875rem !important;
   height: 2.875rem !important;
 }
