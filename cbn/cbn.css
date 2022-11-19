@@ -2560,7 +2560,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   .notion-collection-table__body
   tr:first-child
   a {
-  margin-right: 1rem !important;
+  margin-right: 2rem !important;
   text-transform: uppercase !important;
   letter-spacing: 0.1rem !important;
   font-size: 0.9875rem !important;
