@@ -3067,11 +3067,6 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
-.footer-social-icons {
-    width: 350px;
-    display:block;
-    margin: 0 auto;
-}
 .social-icon {
     color: #fff;
 }
@@ -3086,6 +3081,7 @@ ul.social-icons {
 .social-icons a {
     color: rgb(0, 0, 0);
     text-decoration: none;
+    size:2rem;
 }
 .fa-facebook {
     padding:10px 14px;
