@@ -3064,7 +3064,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 /* Social Icons */
 
 .footer-social-icons {
-  width: 350px;
+  width: 100%;
   display:block;
   margin: 0 auto;
 }
