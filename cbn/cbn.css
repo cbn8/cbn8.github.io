@@ -1076,10 +1076,6 @@ body {
   display: none !important;
 }
 
-:root {
-  --collection-card-cover-size-small: 2.5rem !important;
-}
-
 @font-face {
   font-family: "Clash Grotesk Semibold";
   src: url("https://mattdowney.github.io/digital/fonts/ClashGrotesk-Semibold.woff2")
@@ -3065,7 +3061,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   }
 }
 
-@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+/* Social Icons */
 
 .social-icon {
     color: #fff;
