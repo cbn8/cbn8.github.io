@@ -2098,7 +2098,7 @@ img {
   svg {
   width: 2.5rem !important;
   height: 2.5rem !important;
-  stroke: var(--contrast) !important;
+  stroke: #3B3E40 !important;
   margin-right: 24px;
 }
 .super-navbar .super-navbar__menu-wrapper {
