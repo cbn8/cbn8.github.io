@@ -3080,74 +3080,80 @@ ul.social-icons {
     font-size:1.618rem;
 }
 .fa-facebook {
-    padding:10px 14px;
+    padding:10px 16px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color:#D9D9D9;
+    border-radius:16px;
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
 }
 .fa-twitter {
-    padding:10px 12px;
+    padding:10px 16px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color:#D9D9D9;
+    border-radius:16px;
     
 }
 .fa-twitter:hover {
     background-color: #00aced;
 }
 .fa-rss {
-    padding:10px 14px;
+    padding:10px 16px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color:#D9D9D9;
+    border-radius:16px;
 }
 .fa-rss:hover {
     background-color: #eb8231;
 }
 .fa-youtube {
-    padding:10px 14px;
+    padding:10px 16px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color:#D9D9D9;
+    border-radius:16px;
 }
 .fa-youtube:hover {
     background-color: #e64a41;
 }
 .fa-linkedin {
-    padding:10px 14px;
+    padding:10px 16px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color:#D9D9D9;
+    border-radius:16px;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
 }
 .fa-github {
-    padding:10px 14px;
+    padding:10px 16px;
     -o-transition:.5s;
     -ms-transition:.5s;
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
     background-color:#D9D9D9;
+    border-radius:16px;
 }
 .fa-github:hover {
     background-color: #5a32a3;
