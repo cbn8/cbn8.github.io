@@ -3084,7 +3084,7 @@ ul.social-icons {
     height: 100px;
 }
 .social-icons a {
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-decoration: none;
 }
 .fa-facebook {
@@ -3094,7 +3094,6 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
 }
 .fa-facebook:hover {
     background-color: #3d5b99;
@@ -3106,7 +3105,6 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
 }
 .fa-twitter:hover {
     background-color: #00aced;
@@ -3118,7 +3116,6 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
 }
 .fa-rss:hover {
     background-color: #eb8231;
@@ -3130,7 +3127,6 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
 }
 .fa-youtube:hover {
     background-color: #e64a41;
@@ -3142,7 +3138,6 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
 }
 .fa-linkedin:hover {
     background-color: #0073a4;
@@ -3154,7 +3149,6 @@ ul.social-icons {
     -moz-transition:.5s;
     -webkit-transition:.5s;
     transition: .5s;
-    background-color: #322f30;
 }
 .fa-github:hover {
     background-color: #5a32a3;
