@@ -1077,7 +1077,7 @@ body {
 }
 
 :root {
-  --collection-card-cover-size-small: 3.5rem !important;
+  --collection-card-cover-size-small: 4.5rem !important;
 }
 
 @font-face {
