@@ -2537,6 +2537,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 }
 .notion-callout .notion-callout__content .notion-collection tr {
   margin-bottom: 0.15rem !important;
+  color: #616161 !important;
 }
 .notion-callout
   .notion-callout__content
