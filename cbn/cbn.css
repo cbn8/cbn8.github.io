@@ -1077,7 +1077,7 @@ body {
 }
 
 :root {
-  --collection-card-cover-size-small: 4.5rem !important;
+  --collection-card-cover-size-small: 3.5rem !important;
 }
 
 @font-face {
@@ -1842,7 +1842,7 @@ img {
   .notion-collection-card
   .notion-collection-card__content
   img {
-  width: 2.5rem !important;
+  width: 3.5rem !important;
   height: auto !important;
   opacity: 0.3 !important;
 }
