@@ -2537,7 +2537,6 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 }
 .notion-callout .notion-callout__content .notion-collection tr {
   margin-bottom: 0.15rem !important;
-  color: #616161 !important;
 }
 .notion-callout
   .notion-callout__content
@@ -2570,6 +2569,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   text-transform: uppercase !important;
   letter-spacing: 0.1rem !important;
   font-size: 0.9875rem !important;
+  color: #616161 !important;
 }
 @media (max-width: 767.98px) {
   .notion-callout
