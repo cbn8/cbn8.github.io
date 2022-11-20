@@ -3063,6 +3063,12 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
 
 /* Social Icons */
 
+.footer-social-icons {
+  width: 350px;
+  display:block;
+  margin: 0 auto;
+}
+
 .social-icon {
     color: #fff;
 }
