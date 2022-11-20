@@ -3067,12 +3067,13 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
     color: #fff;
 }
 ul.social-icons {
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .social-icons li {
     vertical-align: top;
     display: inline;
     height: 100px;
+    margin-right: 6px;
 }
 .social-icons a {
     color: rgb(0, 0, 0);
