@@ -3114,6 +3114,10 @@ ul.social-icons {
   color:#3B3E40;
   border-radius: 12px;
 }
+.fa-behance:hover {
+  background-color: #000000;
+  color: #ffffff;
+}
 .fa-envelope {
   padding: 10px 15px;
   -o-transition: 0.5s;
@@ -3125,7 +3129,7 @@ ul.social-icons {
   color:#3B3E40;
   border-radius: 12px;
 }
-.fa-behance:hover {
+.fa-envelope:hover {
   background-color: #000000;
   color: #ffffff;
 }
