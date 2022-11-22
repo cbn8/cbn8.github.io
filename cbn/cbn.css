@@ -3114,6 +3114,17 @@ ul.social-icons {
   color:#3B3E40;
   border-radius: 12px;
 }
+.fa-envelope {
+  padding: 10px 15px;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #ebebeb;
+  color:#3B3E40;
+  border-radius: 12px;
+}
 .fa-behance:hover {
   background-color: #000000;
   color: #ffffff;
