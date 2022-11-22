@@ -2157,10 +2157,6 @@ img {
   display: none !important;
 }
 
-#page-index h1 {
-  margin-bottom: 2.25rem !important;
-}
-
 @media (max-width: 767.98px) {
   #page-index .notion-column-list .notion-column {
     margin-bottom: 3rem !important;
