@@ -2028,7 +2028,7 @@ img {
   padding-left: calc(env(safe-area-inset-left) + 96px);
   padding-right: calc(env(safe-area-inset-right) + 96px);
   padding-top: 1.4rem !important;
-  padding-bottom: 1.4rem !important;
+  padding-bottom: 0px !important;
   background: var(--bg) !important;
   background: rgba(255, 255, 255, 0.62) !important;
   backdrop-filter: blur(16px);
