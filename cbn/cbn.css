@@ -1309,6 +1309,10 @@ li {
   margin: 0;
 }
 
+.notion-collection__header-wrapper {
+  margin-top:0px !important;
+}
+
 h3.notion-collection__header {
   display: none !important;
 }
