@@ -2580,7 +2580,9 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
     a {
     margin-right: 0 !important;
     display: block !important;
-    margin-bottom: 0.5rem !important;
+    margin-bottom: 2rem !important;
+    font-size: 1.3rem !important;
+    letter-spacing:2px !important;
   }
 }
 @media (max-width: 767.98px) {
