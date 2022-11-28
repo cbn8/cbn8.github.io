@@ -2567,8 +2567,8 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   a {
   margin-right: 2rem !important;
   text-transform: uppercase !important;
-  letter-spacing: 0.1rem !important;
-  font-size: 0.9875rem !important;
+  letter-spacing: 0.13rem !important;
+  font-size: 1rem !important;
   color: #616161 !important;
 }
 @media (max-width: 767.98px) {
