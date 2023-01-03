@@ -3106,7 +3106,7 @@ ul.social-icons {
   background-color: #00aced;
   color: #ffffff;
 }
-.fa-behance {
+.fa-dribbble {
   padding: 10px 15px;
   -o-transition: 0.5s;
   -ms-transition: 0.5s;
@@ -3117,7 +3117,7 @@ ul.social-icons {
   color:#3B3E40;
   border-radius: 12px;
 }
-.fa-behance:hover {
+.fa-dribbble:hover {
   background-color: #000000;
   color: #ffffff;
 }
