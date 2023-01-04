@@ -1195,10 +1195,10 @@ h1.notion-heading {
 }
 h2,
 h2.notion-heading {
-  font-size: 2rem !important;
+  font-size: 2.1rem !important;
   color: #5a5a5a !important;
   font-weight: 700 !important;
-  letter-spacing: 0.025rem !important;
+  letter-spacing: 0.5rem !important;
   font-family: "Clash Grotesk Regular", -apple-system, BlinkMacSystemFont,
     "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
     "Segoe UI Emoji", "Segoe UI Symbol" !important;
@@ -1208,8 +1208,8 @@ h2.notion-heading {
 @media (max-width: 767.98px) {
   h2,
   h2.notion-heading {
-    letter-spacing: 0.25px !important;
-    font-size: 2rem !important;
+    letter-spacing: 0.5px !important;
+    font-size: 2.1rem !important;
     color: #5c5f60 !important;
   }
 }
@@ -1217,8 +1217,8 @@ h2.notion-heading {
 h3,
 h3.notion-heading {
   text-transform: uppercase !important;
-  letter-spacing: 0.06rem !important;
-  font-size: 1.48rem !important;
+  letter-spacing: 0.08rem !important;
+  font-size: 1.23rem !important;
   color: #757779 !important;
   margin-top: 1rem !important;
   margin-bottom: 1.875rem !important;
