@@ -1,4 +1,4 @@
-function attachEventListeners() {
+window.onload = function() {
   document.querySelector('div#block-3d0e68edaa7046c597a90af1083d56ff').addEventListener('click', function() {
     window.open('https://dribbble.com/shots/20706559-Calibre-Redesign', '_blank');
   });
@@ -11,11 +11,3 @@ function attachEventListeners() {
     window.open('https://dribbble.com/shots/20305837-Photography-Website', '_blank');
   });
 }
-
-window.onload = function() {
-  attachEventListeners();
-}
-
-window.addEventListener('load', function() {
-  attachEventListeners();
-});
