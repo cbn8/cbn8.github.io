@@ -3151,3 +3151,33 @@ ul.social-icons {
   background-color: #0073a4;
   color: #ffffff;
 }
+
+/* Welcome Video */
+
+#welcomevideo {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 300px;
+  height: 400px;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+#video {
+  position: absolute;
+  background: #000000;
+  bottom: -400px; /* start the video offscreen */
+  right: -300px;
+  width: 300px;
+  height: 400px;
+  opacity: 0;
+  border-top-left-radius: 24px;
+  transition: all 1s ease-in-out; /* animate the sliding and fading */
+}
+
+#video.slide-in {
+  bottom: 0;
+  right: 0;
+  opacity: 1;
+}
