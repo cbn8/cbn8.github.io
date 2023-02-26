@@ -3181,7 +3181,7 @@ ul.social-icons {
   opacity: 1;
 }
 
-.super-navbar__logo-image {
+.super-navbar simple {
   opacity: 0; /* Set the initial opacity to 0 */
   transform: translateX(-100px); /* Move the logo 100 pixels to the left */
   animation: fadeInLeft 1s ease-in-out forwards; /* Apply the animation with a 1 second duration and ease-in-out timing function */
