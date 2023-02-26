@@ -12,9 +12,7 @@ function attachEventListeners() {
   });
 }
 
-window.onload = function() {
-  attachEventListeners();
-}
+attachEventListeners();
 
 window.addEventListener('load', function() {
   attachEventListeners();
