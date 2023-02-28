@@ -3182,15 +3182,33 @@ ul.social-icons {
 }
 
 
-/* #block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover large::before {
+#block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover large {
+  position: relative;
+}
+
+#block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover large::before {
   content: "";
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: transparent;
   z-index: 1;
 }
 
-*/
+#block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover large::after {
+  content: "Case Study";
+  position: absolute;
+  bottom: -15px;
+  right: -15px;
+  padding: 6px 20px;
+  background-color: black;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  transform: rotate(45deg);
+  transform-origin: bottom right;
+  z-index: 2;
+}
