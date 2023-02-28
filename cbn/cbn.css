@@ -3182,7 +3182,7 @@ ul.social-icons {
 }
 
 
-#block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover large::before {
+#block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover large::after {
   content: "";
   position: absolute;
   top: 0;
