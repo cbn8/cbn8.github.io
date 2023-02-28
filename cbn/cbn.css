@@ -3181,7 +3181,7 @@ ul.social-icons {
   opacity: 1;
 }
 
-#block-3d0e68edaa7046c597a90af1083d56ff.notion-collection-card__cover::before {
+#block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large::before {
   content: "";
   position: absolute;
   top: 0;
