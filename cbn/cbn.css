@@ -3181,7 +3181,11 @@ ul.social-icons {
   opacity: 1;
 }
 
-#block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large > span::after {
+/* Thumbnail Ribbons */
+
+
+/* Calibre - Case Study */
+#block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large > span, #block-livingtogether > div.notion-collection-card__cover.large > span, #block-out > div.notion-collection-card__cover.large > span::after {
   content: "Case Study";
   position: absolute;
   bottom: 20px;
