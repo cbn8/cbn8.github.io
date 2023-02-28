@@ -3185,7 +3185,39 @@ ul.social-icons {
 
 
 /* Calibre - Case Study */
-#block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large > span, #block-livingtogether > div.notion-collection-card__cover.large > span, #block-out > div.notion-collection-card__cover.large > span::after {
+#block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large > span::after {
+  content: "Case Study";
+  position: absolute;
+  bottom: 20px;
+  width:200px;
+  right: -50px;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(330deg);
+}
+
+/* Living Together - Case Study */
+#block-livingtogether > div.notion-collection-card__cover.large > span::after {
+  content: "Case Study";
+  position: absolute;
+  bottom: 20px;
+  width:200px;
+  right: -50px;
+  text-align: center;
+  background-color: #f44336;
+  color: white;
+  padding: 5px 10px;
+  font-size: 14px;
+  font-weight: bold;
+  transform: rotate(330deg);
+}
+
+/* Out - Case Study */
+#block-out > div.notion-collection-card__cover.large > span::after {
   content: "Case Study";
   position: absolute;
   bottom: 20px;
