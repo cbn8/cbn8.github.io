@@ -3190,3 +3190,7 @@ ul.social-icons {
   height: 100%;
   background-color: rgba(0, 0, 0, 0.5);
 }
+
+#block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large {
+  background-color: #000000 !important;
+}
