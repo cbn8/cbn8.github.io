@@ -3200,6 +3200,12 @@ ul.social-icons {
   transform: rotate(330deg);
 }
 
+@media (max-width: 767.98px) {
+  #block-3d0e68edaa7046c597a90af1083d56ff > div.notion-collection-card__cover.large > span::after {
+    bottom: 260px;
+  }
+}
+
 /* Living Together - Case Study */
 #block-livingtogether > div.notion-collection-card__cover.large > span::after {
   content: "Case Study";
@@ -3216,6 +3222,12 @@ ul.social-icons {
   transform: rotate(330deg);
 }
 
+@media (max-width: 767.98px) {
+  #block-livingtogether > div.notion-collection-card__cover.large > span::after {
+    bottom: 260px;
+  }
+}
+
 /* Out - Case Study */
 #block-out > div.notion-collection-card__cover.large > span::after {
   content: "Case Study";
@@ -3230,4 +3242,10 @@ ul.social-icons {
   font-size: 14px;
   font-weight: bold;
   transform: rotate(330deg);
+}
+
+@media (max-width: 767.98px) {
+  #block-out > div.notion-collection-card__cover.large > span::after {
+    bottom: 260px;
+  }
 }
