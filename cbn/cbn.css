@@ -3249,3 +3249,31 @@ ul.social-icons {
     bottom: 260px;
   }
 }
+
+/* Submenu (For Case Studies) */
+
+.submenu {
+  position: fixed;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  background-color: #f2f2f2;
+  padding: 10px;
+  z-index: 1000;
+  transition: opacity 0.3s ease-out;
+}
+
+.submenu a {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.submenu a:hover {
+  text-decoration: underline;
+}
+
+.hidden {
+  opacity: 0;
+}
