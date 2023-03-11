@@ -3052,6 +3052,7 @@ article[id*="block-projects-"] .notion-column-list .notion-column {
   .super-navbar__menu-item-list
   .super-navbar__item {
   color: #ffffff !important;
+  text-align: center;
 }
 
 /* About Headshot Desktop Placement (End/Right) Override */
