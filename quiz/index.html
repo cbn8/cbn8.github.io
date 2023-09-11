@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Interactive Quiz</title>
+    <script src="scripts/papaparse.min.js"></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="quiz-container">
+      <header>
+        <h1 class="quiztitle text-size-3xl text-type-heading">
+          No module loaded
+        </h1>
+      </header>
+      <div class="dropdown-wrapper">
+        <label class="text-size-s text-type-label" for="csvselect"
+          >Select Module:</label
+        >
+        <select class="csvselect text-size-n text-type-body"></select>
+      </div>
+      <div class="question-wrapper">
+        <div class="quiz-progress text-size-s text-type-label"></div>
+        <div class="question text-size-l text-type-subheading"></div>
+        <div class="options"></div>
+
+        <div class="report"></div>
+      </div>
+    </div>
+    <script src="scripts/quiz.js"></script>
+  </body>
+</html>
