@@ -222,7 +222,7 @@ header {
 /* Media Queries */
 
 /* Mobile / Tablet: Full-Width on Quiz Buttons */
-@media only screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .options {
     flex-direction: column;
   }
