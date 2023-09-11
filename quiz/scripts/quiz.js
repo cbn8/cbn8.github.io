@@ -10,7 +10,7 @@ const QuizApp = {
     // Add more objects for additional CSV files if needed
   ],
 
-  defaultCsvFileName: "https://nathaniellr.github.io/quiz/data/webdev-1.csv",
+  defaultCsvFileName: "webdev-1.csv",
 
   currentQuestion: 0,
   score: 0,
