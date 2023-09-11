@@ -95,7 +95,7 @@ const QuizApp = {
     this.csvSelect.addEventListener("change", () => this.csvSelectChange());
     this.reportContainer.innerHTML = "";
 
-    fetch(`../data/${this.defaultCsvFileName}`)
+    fetch(`https://nathaniellr.github.io/quiz/data/${this.defaultCsvFileName}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
