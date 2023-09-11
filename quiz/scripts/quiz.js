@@ -1,16 +1,16 @@
 const QuizApp = {
   // Constants and Variables
   csvFiles: [
-    { fileName: "webdev-1.csv", displayName: "Web: Web Development 1" },
-    { fileName: "webdev-2.csv", displayName: "Web: Web Development 2" },
-    { fileName: "cssintro.csv", displayName: "Web: CSS Intro 1" },
-    { fileName: "cssflex.csv", displayName: "Web: CSS Flex 1" },
-    { fileName: "javascript-1.csv", displayName: "Web: JavaScript 1" },
-    { fileName: "ositcpip.csv", displayName: "Networking: OSI & TCP/IP" },
+    { fileName: "data/webdev-1.csv", displayName: "Web: Web Development 1" },
+    { fileName: "data/webdev-2.csv", displayName: "Web: Web Development 2" },
+    { fileName: "data/cssintro.csv", displayName: "Web: CSS Intro 1" },
+    { fileName: "data/cssflex.csv", displayName: "Web: CSS Flex 1" },
+    { fileName: "data/javascript-1.csv", displayName: "Web: JavaScript 1" },
+    { fileName: "data/ositcpip.csv", displayName: "Networking: OSI & TCP/IP" },
     // Add more objects for additional CSV files if needed
   ],
 
-  defaultCsvFileName: "webdev-1.csv",
+  defaultCsvFileName: "data/webdev-1.csv",
 
   currentQuestion: 0,
   score: 0,
