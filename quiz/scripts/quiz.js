@@ -61,7 +61,7 @@ const QuizApp = {
     this.optionsElement.style.display = "flex";
 
     const selectedCsv = this.csvSelect.value;
-    fetch(`https://nathaniellr.github.io/data/${selectedCsv}`)
+    fetch(`https://nathaniellr.github.io/quiz/data/${selectedCsv}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
@@ -95,7 +95,7 @@ const QuizApp = {
     this.csvSelect.addEventListener("change", () => this.csvSelectChange());
     this.reportContainer.innerHTML = "";
 
-    fetch(`https://nathaniellr.github.io/data/${this.defaultCsvFileName}`)
+    fetch(`https://nathaniellr.github.io/quiz/data/${this.defaultCsvFileName}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
