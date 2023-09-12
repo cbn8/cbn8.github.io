@@ -234,5 +234,5 @@ const QuizApp = {
   },
 };
 
-// Call the initialization function to start the app test
+// Call the initialization function to start the app
 QuizApp.init();
