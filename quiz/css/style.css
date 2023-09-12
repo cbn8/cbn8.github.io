@@ -167,7 +167,7 @@ header {
 }
 
 .question {
-  margin: 0rem 0rem var(--space-s-m) 0rem;
+  margin: 0rem 0rem var(--space-m) 0rem;
 }
 
 .options {
@@ -216,14 +216,34 @@ header {
 }
 
 .quiz-progress {
-  margin: 0rem 0rem var(--space-s-m) 0rem;
+  margin: 0rem 0rem var(--space-m) 0rem;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.question-wrapper {
+  animation: fade-in 0.5s ease-in-out;
 }
 
 /* Media Queries */
 
-/* Mobile / Tablet: Full-Width on Quiz Buttons */
+/* Mobile: Full-Width on Quiz Buttons */
 @media screen and (max-width: 768px) {
   .options {
     flex-direction: column;
+  }
+}
+
+/* Tablet: Heading Spacing */
+@media screen and (max-width: 1024px) {
+  header {
+    margin-top: var(--space-3xs-2xs);
   }
 }
