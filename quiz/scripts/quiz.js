@@ -7,6 +7,10 @@ const QuizApp = {
     { fileName: "cssflex.csv", displayName: "Web: CSS Flex 1" },
     { fileName: "javascript-1.csv", displayName: "Web: JavaScript 1" },
     { fileName: "ositcpip.csv", displayName: "Networking: OSI & TCP/IP" },
+    {
+      fileName: "devicescables.csv",
+      displayName: "Networking: Devices, Cables, Standards",
+    },
     // Add more objects for additional CSV files if needed
   ],
 
@@ -61,7 +65,7 @@ const QuizApp = {
     this.optionsElement.style.display = "flex";
 
     const selectedCsv = this.csvSelect.value;
-    fetch(`https://nathaniellr.github.io/quiz/data/${selectedCsv}`)
+    fetch(`../data/${selectedCsv}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
@@ -95,7 +99,7 @@ const QuizApp = {
     this.csvSelect.addEventListener("change", () => this.csvSelectChange());
     this.reportContainer.innerHTML = "";
 
-    fetch(`https://nathaniellr.github.io/quiz/data/${this.defaultCsvFileName}`)
+    fetch(`../data/${this.defaultCsvFileName}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
@@ -126,25 +130,24 @@ const QuizApp = {
         quizProgressDiv.innerHTML = `<strong>Question ${
           this.currentQuestion + 1
         } </strong>/ ${this.totalQuestions}`;
-        const questionTextDiv = document.createElement("div");
-        questionTextDiv.textContent = question.Question;
-        this.questionElement.appendChild(questionTextDiv);
-        const options = [
-          question.CorrectAnswer,
-          question.Option1,
-          question.Option2,
-          question.Option3,
-        ];
-        this.shuffleArray(options);
-        options.forEach((option) => {
-          const optionButton = document.createElement("button");
-          optionButton.textContent = option;
-          optionButton.addEventListener("click", () =>
-            this.checkAnswer(option)
-          );
-          this.optionsElement.appendChild(optionButton);
-        });
       }
+
+      // Remove the creation of questionTextDiv and directly set the text content
+      this.questionElement.textContent = question.Question;
+
+      const options = [
+        question.CorrectAnswer,
+        question.Option1,
+        question.Option2,
+        question.Option3,
+      ];
+      this.shuffleArray(options);
+      options.forEach((option) => {
+        const optionButton = document.createElement("button");
+        optionButton.textContent = option;
+        optionButton.addEventListener("click", () => this.checkAnswer(option));
+        this.optionsElement.appendChild(optionButton);
+      });
 
       // Add style classes to .question element
       const questionElement = document.querySelector(".question");
