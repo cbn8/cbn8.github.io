@@ -48,7 +48,7 @@ const QuizApp = {
     this.csvSelect.innerHTML = this.csvFiles
       .map(
         (csvFile) =>
-          `<option value="https://nathaniellr.github.io/quiz/data/${csvFile.fileName}">${csvFile.displayName}</option>`
+          `<option value="${csvFile.fileName}">${csvFile.displayName}</option>`
       )
       .join("");
   },
