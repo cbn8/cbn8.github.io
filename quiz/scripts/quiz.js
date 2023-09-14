@@ -48,7 +48,7 @@ const QuizApp = {
     this.csvSelect.innerHTML = this.csvFiles
       .map(
         (csvFile) =>
-          `<option value="https://nathaniellr.github.io/quiz/data${csvFile.fileName}">${csvFile.displayName}</option>`
+          `<option value="https://nathaniellr.github.io/quiz/data/${csvFile.fileName}">${csvFile.displayName}</option>`
       )
       .join("");
   },
@@ -99,7 +99,7 @@ const QuizApp = {
     this.csvSelect.addEventListener("change", () => this.csvSelectChange());
     this.reportContainer.innerHTML = "";
 
-    fetch(`../data/${this.defaultCsvFileName}`)
+    fetch(`https://nathaniellr.github.io/quiz/data/${this.defaultCsvFileName}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
