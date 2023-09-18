@@ -11,6 +11,7 @@ const QuizApp = {
       fileName: "devicescables.csv",
       displayName: "Networking: Devices, Cables, Standards",
     },
+    { fileName: "pre.csv", displayName: "Pre-Assessment" },
     // Add more objects for additional CSV files if needed
   ],
 
