@@ -40,3 +40,8 @@ Which of the following answers refers to a wireless network using a single WAP?,
 A wireless network operating in an infrastructure mode with the use of more than one WAP is referred to as:,ESS,SSID,IBSS,BSS,
 Which of the following wireless network types enables roaming?,ESS,P2P,IBSS,Ad-hoc,
 Which of the following encryption schemes is used in WiFi Protected Access 2 (WPA2)?,AES-CCMP,TKIP with RC4,RC4,AES-GCMP,
+"A ""Packet Filter"" Firewall operates at what two OSI Layers?",Layers 3 and 4,Layers 1 and 2,Layers 5 and 6,Layers 7 and 6,
+Which three levels of the OSI model does stateful inspection require?,"Layers 3, 4, and 5","Layers 1, 2 and 3","Layers 2, 4, and 7","Layers 3, 5, and 7",
+"For an IPS device to stop traffic, it must be positioned in the middle of the traffic stream, what is this called?",Line-in mode,Detection mode,Stream mode,Protection mode,
+What is the role of an IDS?,Detect malicious traffic and notify administrator,Prevent malicious traffic from entering the network,Detect and prevent malicious traffic from entering the network,Black list malicious traffic,
+Which Transport layer protocol is best suited for streaming audio and video?,User datagram protocol (UDP),Internet protocol (IP),Hypertext transfer protocol (HTTP),Transmission control protocol (TCP),"UDP is the correct answer as it is connectionless and does not wait for verification of successful transmission before it sends more data, hence, resulting in quicker transmission speeds."
