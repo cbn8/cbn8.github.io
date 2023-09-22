@@ -62,3 +62,4 @@ Which command in MS Windows displays a table consisting of IP addresses and thei
 Which netstat parameter allows to display the names of applications and executable file components that are accessing the network?,-b,-a,-n,-p,
 Which of the following answers refers to a command-line packet capturing utility?,tcpdump,nmap,tcpreplay,netcat,
 Which of the following command-line tools is used for discovering hosts and services on a network?,nmap,tracert,netcat,tcpdump,
+test,test,test,test,test,
