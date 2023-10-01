@@ -84,7 +84,7 @@
   --radius-surface: var(--space-m);
 
   /* Icon */
-  --icon-size-default: var(--space-xl-2xl);
+  --icon-size-default: var(--space-l);
   --icon-color-default: var(--empty);
 }
 
@@ -271,7 +271,7 @@ input[type="checkbox"]:checked::after {
 .theme-toggle {
   background: none;
   border: none;
-  width: var(--space-2xl-3xl);
+  padding: var(--space-2xs-xs);
 }
 
 .theme-toggle.dark-mode::after {
