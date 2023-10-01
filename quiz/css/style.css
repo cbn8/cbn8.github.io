@@ -76,8 +76,8 @@
 
   /* Wrap */
   --wrap-max-width: 75rem;
-  --wrap-gap: var(--space-l);
-  --wrap-inner-padding: var(--space-s-m);
+  --wrap-gap: var(--space-m);
+  --wrap-inner-padding: var(--space-m);
 
   /* Radius */
   --radius-button: var(--space-s);
@@ -98,9 +98,10 @@
 /* Global Media Queries */
 @media only screen and (max-width: 769px) {
   :root {
-    --section-padding: var(--space-m) var(--space-xl) var(--space-m)
-      var(--space-xl);
+    --section-padding: var(--space-m) var(--space-m) var(--space-m)
+      var(--space-m);
     --section-gap: var(--space-m);
+    --wrap-gap: var(--space-l);
   }
   .wrap {
     flex-direction: column !important;
@@ -111,6 +112,8 @@
     --section-padding: var(--space-xs) var(--space-xs) var(--space-xs)
       var(--space-xs);
     --section-gap: var(--space-xs);
+    --wrap-gap: var(--space-m);
+    --wrap-inner-padding: var(--space-s);
   }
 }
 
