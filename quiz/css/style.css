@@ -76,7 +76,7 @@
 
   /* Wrap */
   --wrap-max-width: 75rem;
-  --wrap-gap: var(--space-m);
+  --wrap-gap: var(--space-l);
   --wrap-inner-padding: var(--space-m);
 
   /* Radius */
@@ -101,7 +101,6 @@
     --section-padding: var(--space-m) var(--space-m) var(--space-m)
       var(--space-m);
     --section-gap: var(--space-m);
-    --wrap-gap: var(--space-l);
   }
   .wrap {
     flex-direction: column !important;
