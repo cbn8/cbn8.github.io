@@ -1,0 +1,33 @@
+Question,Type,CorrectAnswer,Option1,Option2,Option3,Reason
+"Which relational operation is used to eliminate one or more columns of a table, creating a new table with a subset of the original columns?",MCQ,Project,Product,Join,Aggregate,"The operation that eliminates one or more columns from a table is called ""Project."""
+"Which SQL data type is used to store large text or binary data, such as long paragraphs of text or images?",MCQ,BLOB,TEXT,VARCHAR,INTEGER,
+A _________ key is often randomly generated and has no meaning to the database user.,MCQ,Surrgate,Composite,Natural,Candidate,
+Which of the following SQL aggregate functions are used to perform calculations on numeric data?,SelectAll,"SUM,AVG,MAX,MIN",COUNT,,,
+Which item in an entity-relationship (ER) diagram follows the attribute name and is placed outside of parentheses?,MCQ,Attribute maximum,Weak entity,Attribute minimum,Physical design,
+Every database query must be logged by the transaction manager to recover the database in the event of a system failure.,TrueFalse,False,True,,,"All inserts, updates, and deletes must be logged in order to correctly restore database changes. Reads are not needed to restore database changes, however, and thus are not logged."
+Which statement shows all databases in a database system?,MCQ,SHOW DATABASES;,SHOW COLUMNS;,SHOW TABLES;,SHOW ROWS;,
+Which of the following are valid SQL data types?,SelectAll,"INTEGER,VARCHAR,DATE",TRUE/FALSE,ARRAY,,
+"Which type of development activity is used to convert an entity-relationship model (ERM) into tables, columns, and keys?",MCQ,Logical design,Analysis,Physical design,Execution,
+Which UPDATE statement uses valid syntax in SQL?,MCQ,"UPDATE table_name SET column1 = value1, column2 = value2 WHERE condition;",UPDATE table_name column_name= value1 WHERE condition,"UPDATE SET column1 = value1, column2 = value2 WHERE condition IN table_name;",UPDATE table_name SET column_name = value1,
+"What is the correct syntax for adding a new column named ""DateOfBirth"" with the data type ""DATE"" to an existing table named ""Persons""?",MCQ,ALTER TABLE Persons ADD DateOfBirth DATE;,ALTER TABLE Persons ADD COLUMN DateOfBirth DATE;,ALTER TABLE Persons ADD DateOfBirth DATE (50);,ADD COLUMN DateOfBirth DATE TO TABLE Persons;,"The correct answer is (x) ""ALTER TABLE Persons ADD DateOfBirth DATE;"" because it uses the standard SQL syntax for adding a new column to an existing table, specifying the column name ""DateOfBirth"" and its data type ""DATE."""
+Which of the following would prevent unauthorized access to a database?,MCQ,Database system,Database,Database application,Database access,Database systems ensure data is secure and safe.
+SQL is a general-purpose programming language.,TrueFalse,False,True,,,
+Which SQL command uses the correct syntax to update the salary of an employee in the Employee table?,MCQ,UPDATE Employee SET Salary = 50000 WHERE ID = 1;,CHANGE Employee Salary = 50000 WHERE ID = 1;,ALTER Employee SET Salary = 50000 WHERE ID = 1;,UPDATE Employee (Salary) = (50000) WHERE ID = 1;,
+Which type of join returns only the matching values when selecting rows from two or more tables?,MCQ,Inner Join,Equijoin,Outer Join,Full Join,
+"Which type of join is demonstrated by the following query?: SELECT Dog.Nickname, Kennel.Address
+FROM Dog, Kennel
+WHERE Dog.KennelID = Kennel.ID",MCQ,EQUIJOIN,CROSS JOIN,SELF JOIN,NON-EQUIJOIN,
+Which MySQL operator is the last in the order of operator precedence?,MCQ,OR,NOT,=,-,
+What are the two main types of database keys?,SelectAll,"Unique,Non-Unique",Foreign,Primary,,
+"What does the ""USE DatabaseName"" statement do in SQL?",MCQ,Selects a default database,Lists all databases,Shows all tables,Creates a new table,
+A composite key is a unique key.,TrueFalse,True,False,,,
+"Which relational operation lists all combinations of rows from two tables, creating a Cartesian product of the tables?",MCQ,Product,Intersect,Union,Difference,"The ""Product"" operation lists all combinations of rows from two tables, creating a Cartesian product of the tables."
+Which data type is suitable for storing date and time information in SQL?,MCQ,TIMESTAMP,INTEGER,DECIMAL,BOOLEAN,
+Which property or function allows SQL to insert a field value?,MCQ,Auto-increment,Numeric,Simple,Composite,
+Which SQL statement is used to display all tables in the default database?,MCQ,SHOW TABLES,SHOW DATABASES,SHOW COLUMNS,SHOW CREATE TABLE,
+"Which SQL command uses the correct syntax to select the name and salary columns from the Employee table, where the salary is greater than 50000, and sort the results by salary in descending order?",MCQ,"SELECT name, salary FROM Employee WHERE salary > 50000 ORDER BY salary DESC;","SELECT Employee.name, Employee.salary WHERE Employee.salary > 50000 SORT BY Employee.salary DESC;","SELECT name, salary FROM Employee SORT BY salary DESC WHERE salary > 50000;","SELECT name, salary FROM Employee WHERE salary > 50000 SORT BY salary ASC;",
+"Which relational operation selects rows that appear in one table but not in another, effectively finding the difference between the two tables?",MCQ,Difference,Union,Aggregate,Project,"The ""Difference"" operation selects rows that appear in one table but not in another, finding the difference between the two tables."
+Which INSERT statement demonstrates valid syntax in SQL?,MCQ,"INSERT INTO table_name (column1, column2) VALUES (value1, value2);","INSERT INTO table_name (column1, column2) SET value1, value2;","INSERT INTO table_name VALUES (value1, value2);","INSERT INTO table_name SET column1 = value1, column2 = value2;",
+Which SQL statement is used to modify existing data in a database table?,MCQ,UPDATE,ALTER TABLE,CHANGE RECORD,MODIFY DATA,
+"The insert, select, update, and delete queries are the only types of commands necessary to interact with a database system.",TrueFalse,False,True,,,"Other database commands are necessary to create and delete databases, tables, columns, and other database objects. However, the insert, select, update, and delete queries are the most common database commands."
+Which statement used to remove data from temporary tables?,MCQ,TRUNCATE,DEFAULT,DELETE,DROP,

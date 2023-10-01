@@ -1,0 +1,31 @@
+Question,Type,CorrectAnswer,Option1,Option2,Option3,Reason
+Which key describes the unique columns in a table that do not contain a primary key?,MCQ,Candidate key,Foreign key,Simple key,Composite key,
+Which SQL statement is used to list all databases in the database system instance?,MCQ,SHOW DATABASES,SHOW TABLES,SHOW COLUMNS,SHOW CREATE TABLE,
+Which property specifies an expression on one or more columns of a table?,MCQ,CHECK,RESTRICT,CASCADE,UNIQUE,
+In SQL which clause is used to filter the results of a query?,MCQ,WHERE,FROM,SELECT,GROUP BY,
+What kind of data is typically stored in document data types like XML or JSON?,MCQ,Textual data in structured format,Numeric data,Geometric information,Date and time values,
+Data Control Language (DCL),MCQ,Controls database user access.,Retrieves data from the database.,Manipulates data stored in a database.,Manages database transactions.,
+Which type of index is a grid of bits where each index row corresponds to a unique row in a table?,MCQ,Bitmap index,Hash index,Logical index,Multi-level index,
+Which of the following statements is true regarding surrogate keys in a database?,MCQ,Surrogate keys are system-generated and have no inherent ,Surrogate keys are always natural keys.,Surrogate keys are human-readable.,Surrogate keys are used primarily as candidate keys.,Surrogate keys are system-generated and do not have inherent meaning or significance in the real world.
+Which statements may be rejected when a foreign key constraint is specified? ,MCQ,INSERT,CHECK,SELECT,ORDER BY,
+Which symbol is used in an entity-relationship (ER) diagram for an entity?,MCQ,Square,Diamond,Circle,Line,
+Which type of relationship is established by a foreign key in a relational database? ,MCQ,One-to-many,Composition,Aggregation,Many-to-many,
+Which SQL sublanguage is used to manage database access?,MCQ,Data Control Language (DCL),Data Manipulation Language (DML),Data Query Language (DQL),Data Definition Language (DDL),
+Which of the following SQL statements contains a syntax error?,MCQ,DELETE FROM Employees WHERE LastName = 'Doe' AND;,UPDATE Products SET Price = 15.99 WHERE ProductID = 101;,"INSERT INTO Orders (OrderID, ProductName, Quantity) VALUES (1, 'Widget', 10);",SELECT * FROM Customers WHERE CustomerName = 'John';,"The correct answer is (x) ""DELETE FROM Employees WHERE LastName = 'Doe' AND;"" because it has a syntax error. The ""AND"" clause is incomplete and should be followed by a condition. For example, you could rewrite it as ""DELETE FROM Employees WHERE LastName = 'Doe' AND Age < 30;"" to specify a complete condition."
+Which type of join compares columns using only the = operator?,MCQ,Equijoin,Non-equijoin,Outer join,Inner join,
+A _________ key is a candidate key chosen to be the main key for the relation. It uniquely identifies a single row in the table.,MCQ,Primary,Surrogate,Composite,Natural,
+Which strategy can be used to identify primary keys when investigating data relationships? ,MCQ,Unique identifier analysis,Trend analysis,Hypothesis testing,Visualization,
+What is a SQL subquery?,MCQ,A query embedded within another query,A query that retrieves data from multiple tables,A query that performs mathematical calculations,A query that returns only distinct values,
+Without query optimization the storage manager cannot retrieve the database data.,TrueFalse,False,True,,,"Query optimization ensures the most efficient instructions are sent to the storage manager, but the storage manager can retrieve the data with efficient or inefficient instructions."
+In SQL which of the following statements are true regarding INNER JOINs?,SelectAll,"INNER JOIN combines rows from two or more tables based on a common column.,INNER JOIN retrieves only the rows with matching values in the specified columns.",INNER JOIN includes unmatched rows from both tables in the result.,INNER JOIN is also known as a cross join.,,
+When you need to store large amounts of numerical data with many decimal places which data type is the most appropriate in SQL?,MCQ,DECIMAL,INTEGER,BOOLEAN,CHAR,
+Which keyword is a DDL (data definition language) keyword in SQL?,MCQ,CREATE,DELETE,UPDATE,INSERT,
+"Which type of data types is used to store geometric information such as lines, polygons, and map coordinates?",MCQ,Spatial,Document,Character,Decimal,
+"What information does the ""SHOW COLUMNS FROM TableName"" SQL statement provide?",MCQ,List of columns in TableName,List of databases,List of tables,List of indexes in TableName,
+What must be done before creating supertype and subtype entities?,MCQ,Identify entities.,Document entities.,Determine attribute maxima.,Document cardinality.,
+"What does the ""Union"" relational operation do in a database?",MCQ,"Selects all rows from two tables, removing duplicates.",Computes functions over multiple table rows.,Combines two tables by comparing related columns.,Eliminates columns from a table.,"The ""Union"" operation selects all rows from two tables, removing duplicates, and combines them into a single result set."
+"Which SQL statement correctly creates a new table named ""Students"" with two columns, ""StudentID"" (integer) and ""StudentName"" (text)?",MCQ,"CREATE TABLE Students (StudentID INTEGER, StudentName TEXT);","CREATE TABLE Students (StudentID INT, StudentName VARCHAR(50));","CREATE Students TABLE (StudentID INTEGER, StudentName VARCHAR(50));","CREATE TABLE Students (StudentID INT, StudentName VARCHAR2(50));","The correct answer is (x) ""CREATE TABLE Students (StudentID INTEGER, StudentName TEXT);"" because it correctly specifies the data types (INTEGER and TEXT) for the ""StudentID"" and ""StudentName"" columns, respectively, following standard SQL syntax."
+"What does the ""DROP DATABASE DatabaseName"" statement do in SQL?",MCQ,Deletes a specific database,Deletes a specific table,Deletes all tables in a database,Deletes a specific column,
+Which part of a junction table in a relational database establishes a many-to-many relationship between two tables?,MCQ,Foreign key,Primary key,Composite key,Candidate key,
+Which SQL sublanguage is used to roll back database changes?,MCQ,Data Transaction Language (DTL),Data Manipulation Language (DML),Data Query Language (DQL),Data Control Language (DCL),
+Which type of key is often represented by parentheses to show multiple columns?,MCQ,Composite,Simple,Unique,Foreign,

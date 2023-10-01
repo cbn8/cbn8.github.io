@@ -1,0 +1,31 @@
+Question,Type,CorrectAnswer,Option1,Option2,Option3,Reason
+"What is the purpose of the SQL data type ""BOOLEAN""?",MCQ,To store true/false values,To store whole numbers,To store decimal numbers,To store date and time values,
+"What is the purpose of the ""Join"" relational operation in a database?",MCQ,To combine two tables by comparing related columns.,To compute functions over multiple table rows.,To eliminate columns from a table.,To select rows common to two tables.,"The ""Join"" operation is used to combine two tables by comparing related columns, typically based on matching values."
+Which index stores column values and row pointers in a hierarchy?,MCQ,Multi-level index,Secondary index,Sparse index,Dense index,
+The statement DROP Employee; deletes the Employee table.,TrueFalse,False,True,,,
+Which clause or function is used with aggregate functions to produce summary rows?,MCQ,GROUP BY,ORDER BY,REPLACE,TRIM,
+Which process eliminates redundancy by decomposing a table into two or more tables in a higher normal form?,MCQ,Normalization,Evaluation of trivial dependency,Creation of a candidate key,Merging,
+Which wildcard character is used to represent zero or more characters when searching for a specified pattern using a LIKE operator?,MCQ,%,_,<,>,
+"If you want to remove a specific column from an existing table, which SQL statement should you use?",MCQ,ALTER TABLE DROP COLUMN,REMOVE COLUMN,DELETE COLUMN,DROP TABLE,
+Which SQL statement is used to delete a specific table from a database?,MCQ,DROP TABLE,DROP DATABASE,DELETE TABLE,REMOVE TABLE,
+Which SQL JOIN types combine rows where there is matching data and include unmatched rows from the right table?,SelectAll,"FULL OUTER JOIN,RIGHT JOIN",LEFT JOIN,INNER JOIN,,
+What is the purpose of a UNIQUE constraint in a database table?,MCQ,To ensure that no duplicate values are allowed in a specified ,To ensure all values in a column are unique.,To create a primary key constraint.,To allow NULL values in a column.,"A UNIQUE constraint ensures that no duplicate values are allowed in a specified column or combination of columns, making it a candidate key."
+Which data type should you use to store fractional numbers with a fixed number of decimal places in SQL?,MCQ,DECIMAL,FLOAT,INTEGER,VARCHAR,
+What is the standardized language of relational database systems?,MCQ,Structured Query Language,Contextual Query Language,Select Query Language,Object Query Language,
+Which relationship or association exists between a supertype entity and its subtype entities?,MCQ,IsA relationship,Weak entity,Associative entity,Unary relationship,
+Which SQL data type is used to store a single character?,MCQ,CHAR,VARCHAR,TEXT,INTEGER,
+"Which term describes the optimal normal form for frequent inserts, updates, and deletes of data? ",MCQ,Boyce-Codd normal form,Candidate key,Trivial dependency,Third normal form,
+The query processor has direct access to the database data on storage media.,TrueFalse,False,True,,,All access to the database data must go through the storage manager.
+Data Manipulation Language (DML),MCQ,Manipulates data stored in a database.,Retrieves data from the database.,Defines the structure of the database.,Controls database user access.,
+What is the purpose of the SQL GROUP BY clause?,MCQ,To group rows with the same values into summary rows,To filter rows in a table,To sort rows in ascending order,To create a copy of a table,
+"Interprets queries, creates a plan to modify the database or retrieve data, and returns query results to the application.",MCQ,Query processor,Storage manager,Transaction manager,Catalog,
+Data Transaction Language (DTL),MCQ,Manages database transactions.,Controls database user access.,Manipulates data stored in a database.,Retrieves data from the database.,
+A database system is composed of:,SelectAll,"Query processor,Storage manager,Transaction manager,Catalog,Log",,,,
+Which format is used by the TIME data type in MySQL?,MCQ,hh:mm:ss,hh:mm:ss YYYY-MM-DD,YYYY-MM-DD,YYYY-MM-DD hh:mm:ss,
+Which type of join combines two tables without comparing columns?,MCQ,CROSS,OUTER,EQUIJOIN,SELF,
+What describes elements such as column name and data type?,MCQ,Metadata,CRUD,Table,Alter,
+Which term describes the process of denormalization?,MCQ,Merging tables,Candidate key,Trivial dependency,Third normal form,
+Which SQL statement is used to add a new record to a database table?,MCQ,INSERT INTO,CREATE TABLE,UPDATE,ADD RECORD,
+"Which SQL statement correctly selects distinct values from the ""City"" column of the ""Customers"" table?",MCQ,SELECT DISTINCT City FROM Customers;,SELECT UNIQUE City FROM Customers;,SELECT City FROM Customers GROUP BY City;,SELECT DISTINCT * FROM City WHERE Customers;,"The correct answer is (x) ""SELECT DISTINCT City FROM Customers;"" because it uses the standard SQL syntax for selecting distinct values from the ""City"" column of the ""Customers"" table. The DISTINCT keyword ensures that only unique values are returned."
+Which type of index refers to entries that are assigned to buckets?,MCQ,Hash index,Secondary index,Logical index,Bitmap index,
+Which of the following is an example of a composite key in a database table?,MCQ,"(EmployeeID, ProjectID)",EmployeeID,OrderDate,CustomerName,"A composite key consists of two or more columns that, together, form a unique identifier for a row in a table. In this case, (EmployeeID, ProjectID) forms a composite key."
