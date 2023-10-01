@@ -98,8 +98,9 @@
 /* Global Media Queries */
 @media only screen and (max-width: 769px) {
   :root {
-    --section-padding: var(--space-l) var(--space-xl) var(--space-l)
+    --section-padding: var(--space-m) var(--space-xl) var(--space-m)
       var(--space-xl);
+    --section-gap: var(--space-m);
   }
   .wrap {
     flex-direction: column !important;
@@ -107,8 +108,9 @@
 }
 @media only screen and (max-width: 425px) {
   :root {
-    --section-padding: var(--space-xs) var(--space-s) var(--space-xs)
-      var(--space-s);
+    --section-padding: var(--space-xs) var(--space-xs) var(--space-xs)
+      var(--space-xs);
+    --section-gap: var(--space-xs);
   }
 }
 
