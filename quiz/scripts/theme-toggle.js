@@ -1,14 +1,19 @@
 document.addEventListener("DOMContentLoaded", function () {
   const toggleButton = document.querySelector(".theme-toggle"); // Adjust this to your actual class name
+  const select = document.querySelector("select"); // Select the 'select' element directly
   let currentTheme;
 
   function setIcon(theme) {
     if (theme === "dark") {
       toggleButton.classList.remove("light-mode");
       toggleButton.classList.add("dark-mode");
+      select.classList.remove("light-mode"); // Target the 'select' element
+      select.classList.add("dark-mode"); // Target the 'select' element
     } else {
       toggleButton.classList.remove("dark-mode");
       toggleButton.classList.add("light-mode");
+      select.classList.remove("dark-mode"); // Target the 'select' element
+      select.classList.add("light-mode"); // Target the 'select' element
     }
   }
 

@@ -137,33 +137,88 @@ body {
   color: var(--md-sys-color-on-secondary-container);
 }
 
-select {
+select.dark-mode {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   background: transparent;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23333333'%3E%3C/path%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23c9c5ca'%3E%3C/path%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
   transition: all 0.236s linear;
   cursor: pointer;
   outline: none;
-  border: 1px solid #ccc;
+  border: 1px solid var(--md-sys-color-outline);
   height: 4rem;
 }
 
-select:hover {
+select.dark-mode:hover {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
   background: transparent;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23333333'%3E%3C/path%3E%3C/svg%3E");
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23c9c5ca'%3E%3C/path%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
   box-shadow: var(--box-elevation-2);
-  border: 2px solid #808080;
+  border: 2px solid var(--md-sys-color-outline);
+}
+
+select.dark-mode:focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23c9c5ca'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  box-shadow: var(--box-elevation-2);
+  border: 2px solid var(--md-sys-color-outline);
+}
+
+select.light-mode {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23313033\\'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  transition: all 0.236s linear;
+  cursor: pointer;
+  outline: none;
+  border: 1px solid var(--md-sys-color-outline);
+  height: 4rem;
+}
+
+select.light-mode:hover {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23313033'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  box-shadow: var(--box-elevation-2);
+  border: 2px solid var(--md-sys-color-outline);
+}
+
+select.light-mode:focus {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='32' viewBox='0 -960 960 960' width='32'%3E%3Cpath d='M452-388 348-492q-19-19-8.5-43.5T377-560h206q27 0 37.5 24.5T612-492L508-388q-6 6-13 9t-15 3q-8 0-15-3t-13-9Z' fill='%23313033'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-x: 100%;
+  background-position-y: 50%;
+  box-shadow: var(--box-elevation-2);
+  border: 2px solid var(--md-sys-color-outline);
 }
 
 select:focus {
