@@ -96,21 +96,32 @@
 }
 
 /* Global Media Queries */
+
+/* Section */
 @media only screen and (max-width: 769px) {
   :root {
     --section-padding: var(--space-m) var(--space-m) var(--space-m)
       var(--space-m);
     --section-gap: var(--space-m);
   }
+}
+
+@media only screen and (max-width: 425px) {
+  :root {
+    --section-padding: var(--space-xs) var(--space-xs) var(--space-xs)
+      var(--space-xs);
+    --section-gap: var(--space-xs);
+  }
+}
+
+/* Wrap */
+@media only screen and (max-width: 769px) {
   .wrap {
     flex-direction: column !important;
   }
 }
 @media only screen and (max-width: 425px) {
   :root {
-    --section-padding: var(--space-xs) var(--space-xs) var(--space-xs)
-      var(--space-xs);
-    --section-gap: var(--space-xs);
     --wrap-gap: var(--space-m);
     --wrap-inner-padding: var(--space-s);
   }
