@@ -71,8 +71,8 @@
 
   /* Section */
   --section-margin: var(--space-xl-2xl);
-  --section-padding: var(--space-l) var(--space-l) var(--space-l) var(--space-l);
-  --section-gap: var(--space-m-l);
+  --section-padding: var(--space-m) var(--space-m) var(--space-m) var(--space-m);
+  --section-gap: var(--space-m);
 
   /* Wrap */
   --wrap-max-width: 75rem;
@@ -98,7 +98,7 @@
 /* Global Media Queries */
 @media only screen and (max-width: 769px) {
   :root {
-    --section-padding: var(--space-xl) var(--space-xl) var(--space-xl)
+    --section-padding: var(--space-l) var(--space-xl) var(--space-l)
       var(--space-xl);
   }
   .wrap {
@@ -107,7 +107,7 @@
 }
 @media only screen and (max-width: 425px) {
   :root {
-    --section-padding: var(--space-s) var(--space-s) var(--space-s)
+    --section-padding: var(--space-xs) var(--space-s) var(--space-xs)
       var(--space-s);
   }
 }
