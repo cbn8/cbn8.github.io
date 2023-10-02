@@ -129,7 +129,7 @@ const QuizApp = {
       if (quizProgressDiv) {
         quizProgressDiv.innerHTML = `<strong>Question ${
           this.currentQuestion + 1
-        } </strong>/${this.totalQuestions}`;
+        } </strong>/ ${this.totalQuestions}`;
       }
 
       this.questionElement.textContent = question.Question;
