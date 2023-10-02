@@ -35,31 +35,27 @@
   --space-xl-2xl: clamp(3rem, calc(2.65rem + 1.74vw), 4rem);
   --space-2xl-3xl: clamp(4rem, calc(3.3rem + 3.48vw), 6rem);
 
-  /* Root: Elevation */
-  --box-elevation-2: 0px 3px 1px -2px rgba(0, 0, 0, 0.2),
-    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
-  --box-elevation-3: 0px 3px 3px -2px rgba(0, 0, 0, 0.2),
-    0px 3px 4px 0px rgba(0, 0, 0, 0.14), 0px 1px 8px 0px rgba(0, 0, 0, 0.12);
-  --box-elevation-4: 0px 2px 4px -1px rgba(0, 0, 0, 0.2),
-    0px 4px 5px 0px rgba(0, 0, 0, 0.14), 0px 1px 10px 0px rgba(0, 0, 0, 0.12);
-  --box-elevation-6: 0px 3px 5px -1px rgba(0, 0, 0, 0.2),
-    0px 6px 10px 0px rgba(0, 0, 0, 0.14), 0px 1px 18px 0px rgba(0, 0, 0, 0.12);
-  --box-elevation-8: 0px 5px 5px -3px rgba(0, 0, 0, 0.2),
-    0px 8px 10px 1px rgba(0, 0, 0, 0.14), 0px 3px 14px 2px rgba(0, 0, 0, 0.12);
-  --box-elevation-16: 0px 8px 10px -5px rgba(0, 0, 0, 0.2),
-    0px 16px 24px 2px rgba(0, 0, 0, 0.14), 0px 6px 30px 5px rgba(0, 0, 0, 0.12);
-  --text-elevation-2: 0px 3px 1px rgba(0, 0, 0, 0.2),
-    0px 2px 2px rgba(0, 0, 0, 0.14), 0px 1px 5px rgba(0, 0, 0, 0.12);
-  --text-elevation-3: 0px 3px 3px rgba(0, 0, 0, 0.2),
-    0px 3px 4px rgba(0, 0, 0, 0.14), 0px 1px 8px rgba(0, 0, 0, 0.12);
-  --text-elevation-4: 0px 2px 4px rgba(0, 0, 0, 0.2),
-    0px 4px 5px rgba(0, 0, 0, 0.14), 0px 1px 10px rgba(0, 0, 0, 0.12);
-  --text-elevation-6: 0px 3px 5px rgba(0, 0, 0, 0.2),
-    0px 6px 10px rgba(0, 0, 0, 0.14), 0px 1px 18px rgba(0, 0, 0, 0.12);
-  --text-elevation-8: 0px 5px 5px rgba(0, 0, 0, 0.2),
-    0px 8px 10px rgba(0, 0, 0, 0.14), 0px 3px 14px rgba(0, 0, 0, 0.12);
-  --text-elevation-16: 0px 8px 10px rgba(0, 0, 0, 0.2),
-    0px 16px 24px rgba(0, 0, 0, 0.14), 0px 6px 30px rgba(0, 0, 0, 0.12);
+  /* Elevations (Shadows) */
+  --elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  --elevation-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  --elevation-3: 0px 1px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+  --elevation-4: 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 6px 10px 4px rgba(0, 0, 0, 0.15);
+  --elevation-5: 0px 4px 4px 0px rgba(0, 0, 0, 0.3),
+    0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+  --text-elevation-1: 0px 1px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --text-elevation-2: 0px 2px 6px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --text-elevation-3: 0px 1px 3px rgba(0, 0, 0, 0.3),
+    0px 4px 8px rgba(0, 0, 0, 0.15);
+  --text-elevation-4: 0px 2px 3px rgba(0, 0, 0, 0.3),
+    0px 6px 10px rgba(0, 0, 0, 0.15);
+  --text-elevation-5: 0px 4px 4px rgba(0, 0, 0, 0.3),
+    0px 8px 12px rgba(0, 0, 0, 0.15);
 
   /* Root: Transitions */
   --transition-all-default: all 0.236s linear;
@@ -123,7 +119,7 @@
 @media only screen and (max-width: 425px) {
   :root {
     --wrap-gap: var(--space-m);
-    --wrap-inner-padding: var(--space-s);
+    --wrap-inner-padding: var(--space-xs);
   }
 }
 
@@ -177,7 +173,7 @@ select.dark-mode:hover {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
-  box-shadow: var(--box-elevation-2);
+  box-shadow: var(--elevation-2);
   border: 2px solid var(--md-sys-color-outline);
 }
 
@@ -190,7 +186,7 @@ select.dark-mode:focus {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
-  box-shadow: var(--box-elevation-2);
+  box-shadow: var(--elevation-2);
   border: 2px solid var(--md-sys-color-outline);
 }
 
@@ -219,7 +215,7 @@ select.light-mode:hover {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
-  box-shadow: var(--box-elevation-2);
+  box-shadow: var(--elevation-2);
   border: 2px solid var(--md-sys-color-outline);
 }
 
@@ -232,7 +228,7 @@ select.light-mode:focus {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
-  box-shadow: var(--box-elevation-2);
+  box-shadow: var(--elevation-2);
   border: 2px solid var(--md-sys-color-outline);
 }
 
@@ -242,7 +238,7 @@ select:focus {
   background-repeat: no-repeat;
   background-position-x: 100%;
   background-position-y: 50%;
-  box-shadow: var(--box-elevation-3);
+  box-shadow: var(--elevation-3);
   border: 2px solid #808080;
   color: var();
 }
@@ -395,7 +391,7 @@ button,
   border-radius: var(--radius-button);
   background-color: var(--md-sys-color-secondary);
   color: var(--md-sys-color-on-primary);
-  box-shadow: var(--box-elevation-2);
+  box-shadow: var(--elevation-2);
 }
 
 .button-type-s:hover,
@@ -414,7 +410,7 @@ button,
 
 button:hover,
 .button-type-s:hover {
-  box-shadow: var(--box-elevation-6);
+  box-shadow: var(--elevation-5);
 }
 
 .button-type-m {
@@ -425,7 +421,7 @@ button:hover,
 }
 
 .button-type-m:hover {
-  box-shadow: var(--box-elevation-8);
+  box-shadow: var(--elevation-5);
 }
 
 .button-type-l {
@@ -437,7 +433,7 @@ button:hover,
 }
 
 .button-type-l:hover {
-  box-shadow: var(--box-elevation-16);
+  box-shadow: var(--elevation-5);
 }
 
 /* Structure */
@@ -545,6 +541,7 @@ p + h6 {
   gap: var(--wrap-gap);
   padding: var(--space-m-l);
   border-radius: 1rem;
+  width: 100%;
 }
 
 .incorrect-question {
@@ -553,4 +550,5 @@ p + h6 {
   gap: var(--wrap-gap);
   padding: var(--space-m-l);
   border-radius: 1rem;
+  width: 100%;
 }
