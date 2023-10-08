@@ -60,9 +60,7 @@ const QuizApp = {
 
     const selectedCsv = this.csvSelect.value;
     try {
-      const response = await fetch(
-        `https://nathaniellr.github.io/quiz/data/${selectedCsv}`
-      );
+      const response = await fetch(`/data/${selectedCsv}`);
       const data = await response.text();
       this.questions = Papa.parse(data, {
         header: true,
@@ -99,7 +97,7 @@ const QuizApp = {
       this.optionsElement.className = `wrap ${this.optionsElement.className}`;
     }
 
-    fetch(`https://nathaniellr.github.io/quiz/data/${this.defaultCsvFileName}`)
+    fetch(`/data/${this.defaultCsvFileName}`)
       .then((response) => response.text())
       .then((data) => {
         this.questions = Papa.parse(data, {
@@ -203,14 +201,14 @@ const QuizApp = {
   createOptionButton(optionText) {
     const optionButton = document.createElement("button");
     optionButton.textContent = optionText;
-    optionButton.classList.add("button-type-m"); // Added this line to add the class
+    optionButton.classList.add("button-size-m"); // Added this line to add the class
     return optionButton;
   },
 
   createSubmitButton() {
     const submitButton = document.createElement("button");
     submitButton.textContent = "Submit";
-    submitButton.classList.add("button-type-m"); // Added this line to add the class
+    submitButton.classList.add("button-size-m"); // Added this line to add the class
     submitButton.addEventListener("click", () => {
       const checkedOptions = Array.from(
         this.optionsElement.querySelectorAll('input[type="checkbox"]:checked')

@@ -1,0 +1,442 @@
+/* Body & Elements */
+body {
+  font-family: var(--font);
+  background-color: var(--md-sys-color-background);
+  color: var(--md-sys-color-on-secondary-container);
+}
+
+/* Material Symbols */
+.material-symbols-rounded {
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+}
+
+/* Reset */
+.reset-margin {
+  margin: var(--reset) !important;
+}
+
+.reset-padding {
+  padding: var(--reset) !important;
+}
+
+/* Global Reset */
+
+* {
+  margin: var(--reset);
+  padding: var(--reset);
+  box-sizing: border-box;
+}
+
+/* Text Type */
+
+.text-type-heading {
+  font-weight: 600;
+  line-height: normal;
+}
+.text-type-subheading {
+  font-weight: 500;
+  line-height: normal;
+}
+.text-type-label {
+  margin: var(--reset);
+  font-weight: 500;
+  line-height: normal;
+}
+.text-type-body {
+  font-weight: 400;
+  line-height: var(--space-m);
+}
+
+/* Text Size */
+
+.text-size-3xl {
+  font-size: var(--text-size-3xl);
+}
+.text-size-2xl {
+  font-size: var(--text-size-2xl);
+}
+.text-size-xl {
+  font-size: var(--text-size-xl);
+}
+.text-size-l {
+  font-size: var(--text-size-l);
+}
+.text-size-m {
+  font-size: var(--text-size-m);
+}
+.text-size-n {
+  font-size: var(--text-size-n);
+}
+.text-size-s {
+  font-size: var(--text-size-s);
+}
+.text-size-xs {
+  font-size: var(--text-size-xs);
+}
+
+/* Button Size */
+
+button,
+.button-size-s,
+.button-size-m,
+.button-size-l {
+  font-family: var(--font);
+  align-self: flex-start;
+  border: none;
+  transition: var(--transition-all-default);
+  border-radius: var(--radius-button);
+  background-color: var(--md-sys-color-secondary);
+  color: var(--md-sys-color-on-primary);
+  box-shadow: var(--elevation-3);
+}
+
+.button-size-s {
+  font-size: var(--text-size-s);
+  padding: var(--space-s);
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.button-size-m {
+  font-size: var(--text-size-m);
+  padding: var(--space-m);
+  align-self: flex-start;
+  cursor: pointer;
+}
+
+.button-size-l {
+  font-size: var(--text-size-l);
+  padding: var(--space-l);
+  align-self: flex-start;
+  border: none;
+  cursor: pointer;
+}
+
+.button-size-s:hover,
+.button-size-m:hover,
+.button-size-l:hover {
+  background-color: var(--md-sys-color-primary);
+  color: var(--md-sys-color-on-tertiary);
+  box-shadow: var(--elevation-5);
+}
+
+button:hover {
+  box-shadow: var(--elevation-5);
+}
+
+/* Structure */
+
+.section {
+  display: flex;
+  flex-flow: column;
+  gap: var(--section-gap);
+  padding: var(--section-padding);
+}
+
+/* The main wrap utility. */
+.wrap {
+  display: flex;
+  gap: var(--wrap-gap);
+  width: 100%;
+  max-width: var(--wrap-max-width);
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.wrap.col {
+  flex-flow: column;
+}
+
+.wrap.between {
+  justify-content: space-between;
+}
+
+.wrap.inner {
+  border-radius: var(--radius-surface);
+  padding: var(--wrap-inner-padding);
+}
+
+.text-wrap {
+  display: flex;
+  flex-flow: column;
+  gap: var(--space-s);
+}
+p + h1,
+p + h2,
+p + h3,
+p + h4,
+p + h5,
+p + h6 {
+  margin-top: var(--space-s);
+}
+
+/* MD Color */
+
+.primary {
+  background-color: var(--md-sys-color-primary);
+}
+.primary-text {
+  color: var(--md-sys-color-primary);
+}
+.on-primary {
+  background-color: var(--md-sys-color-on-primary);
+}
+.on-primary-text {
+  color: var(--md-sys-color-on-primary);
+}
+.primary-container {
+  background-color: var(--md-sys-color-primary-container);
+}
+.primary-container-text {
+  color: var(--md-sys-color-primary-container);
+}
+.on-primary-container {
+  background-color: var(--md-sys-color-on-primary-container);
+}
+.on-primary-container-text {
+  color: var(--md-sys-color-on-primary-container);
+}
+.secondary {
+  background-color: var(--md-sys-color-secondary);
+}
+.secondary-text {
+  color: var(--md-sys-color-secondary);
+}
+.on-secondary {
+  background-color: var(--md-sys-color-on-secondary);
+}
+.on-secondary-text {
+  color: var(--md-sys-color-on-secondary);
+}
+.secondary-container {
+  background-color: var(--md-sys-color-secondary-container);
+}
+.secondary-container-text {
+  color: var(--md-sys-color-secondary-container);
+}
+.on-secondary-container {
+  background-color: var(--md-sys-color-on-secondary-container);
+}
+.on-secondary-container-text {
+  color: var(--md-sys-color-on-secondary-container);
+}
+.tertiary {
+  background-color: var(--md-sys-color-tertiary);
+}
+.tertiary-text {
+  color: var(--md-sys-color-tertiary);
+}
+.on-tertiary {
+  background-color: var(--md-sys-color-on-tertiary);
+}
+.on-tertiary-text {
+  color: var(--md-sys-color-on-tertiary);
+}
+.tertiary-container {
+  background-color: var(--md-sys-color-tertiary-container);
+}
+.tertiary-container-text {
+  color: var(--md-sys-color-tertiary-container);
+}
+.on-tertiary-container {
+  background-color: var(--md-sys-color-on-tertiary-container);
+}
+.on-tertiary-container-text {
+  color: var(--md-sys-color-on-tertiary-container);
+}
+.error {
+  background-color: var(--md-sys-color-error);
+}
+.error-text {
+  color: var(--md-sys-color-error);
+}
+.on-error {
+  background-color: var(--md-sys-color-on-error);
+}
+.on-error-text {
+  color: var(--md-sys-color-on-error);
+}
+.error-container {
+  background-color: var(--md-sys-color-error-container);
+}
+.error-container-text {
+  color: var(--md-sys-color-error-container);
+}
+.on-error-container {
+  background-color: var(--md-sys-color-on-error-container);
+}
+.on-error-container-text {
+  color: var(--md-sys-color-on-error-container);
+}
+.outline {
+  background-color: var(--md-sys-color-outline);
+}
+.outline-text {
+  color: var(--md-sys-color-outline);
+}
+.background {
+  background-color: var(--md-sys-color-background);
+}
+.background-text {
+  color: var(--md-sys-color-background);
+}
+.on-background {
+  background-color: var(--md-sys-color-on-background);
+}
+.on-background-text {
+  color: var(--md-sys-color-on-background);
+}
+.surface {
+  background-color: var(--md-sys-color-surface);
+}
+.surface-text {
+  color: var(--md-sys-color-surface);
+}
+.on-surface {
+  background-color: var(--md-sys-color-on-surface);
+}
+.on-surface-text {
+  color: var(--md-sys-color-on-surface);
+}
+.surface-variant {
+  background-color: var(--md-sys-color-surface-variant);
+}
+.surface-variant-text {
+  color: var(--md-sys-color-surface-variant);
+}
+.on-surface-variant {
+  background-color: var(--md-sys-color-on-surface-variant);
+}
+.on-surface-variant-text {
+  color: var(--md-sys-color-on-surface-variant);
+}
+.inverse-surface {
+  background-color: var(--md-sys-color-inverse-surface);
+}
+.inverse-surface-text {
+  color: var(--md-sys-color-inverse-surface);
+}
+.inverse-on-surface {
+  background-color: var(--md-sys-color-inverse-on-surface);
+}
+.inverse-on-surface-text {
+  color: var(--md-sys-color-inverse-on-surface);
+}
+.inverse-primary {
+  background-color: var(--md-sys-color-inverse-primary);
+}
+.inverse-primary-text {
+  color: var(--md-sys-color-inverse-primary);
+}
+.shadow {
+  background-color: var(--md-sys-color-shadow);
+}
+.shadow-text {
+  color: var(--md-sys-color-shadow);
+}
+.surface-tint {
+  background-color: var(--md-sys-color-surface-tint);
+}
+.surface-tint-text {
+  color: var(--md-sys-color-surface-tint);
+}
+.outline-variant {
+  background-color: var(--md-sys-color-outline-variant);
+}
+.outline-variant-text {
+  color: var(--md-sys-color-outline-variant);
+}
+.scrim {
+  background-color: var(--md-sys-color-scrim);
+}
+.scrim-text {
+  color: var(--md-sys-color-scrim);
+}
+
+/* MD Symbols */
+
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.236s linear;
+}
+
+input[type="checkbox"]::after {
+  font-family: "Material Symbols Rounded";
+  content: "\e835";
+  font-variation-settings: "FILL" 1, "wght" 300, "GRAD" 0, "opsz" 24;
+  font-size: var(--icon-size-default);
+  color: var(--md-sys-color-secondary);
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+}
+
+input[type="checkbox"]:hover {
+  text-shadow: var(--text-elevation-4);
+}
+
+input[type="checkbox"]:checked::after {
+  font-family: "Material Symbols Rounded";
+  content: "\e834";
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: var(--icon-size-default);
+  color: var(--md-sys-color-secondary);
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+}
+
+.theme-toggle {
+  background: none;
+  border: none;
+  padding: var(--space-2xs-xs);
+}
+
+.theme-toggle.dark-mode::after {
+  font-family: "Material Symbols Rounded";
+  content: "\e518";
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: var(--icon-size-default);
+  color: var(--md-sys-color-secondary);
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+}
+
+.theme-toggle.dark-mode:hover::after {
+  font-family: "Material Symbols Rounded";
+  content: "\e518";
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: var(--icon-size-default);
+  color: var(--md-sys-color-primary);
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+}
+
+.theme-toggle.light-mode::after {
+  font-family: "Material Symbols Rounded";
+  content: "\e51c";
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: var(--icon-size-default);
+  color: var(--md-sys-color-secondary);
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+}
+
+.theme-toggle.light-mode:hover::after {
+  font-family: "Material Symbols Rounded";
+  content: "\e51c";
+  font-variation-settings: "FILL" 1, "wght" 400, "GRAD" 0, "opsz" 24;
+  font-size: var(--icon-size-default);
+  color: var(--md-sys-color-primary);
+  -webkit-font-feature-settings: "liga" 1;
+  -moz-font-feature-settings: "liga" 1;
+  font-feature-settings: "liga" 1;
+}

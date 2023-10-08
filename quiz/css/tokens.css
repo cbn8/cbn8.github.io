@@ -1,4 +1,71 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:400,500,600");
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
 :root {
+  /* Typography */
+  --font: "Inter", sans-serif;
+
+  /* Typography (Fluid) */
+  --text-size-xs: clamp(0.8rem, calc(0.84rem + -0.06vw), 0.83rem);
+  --text-size-s: clamp(1rem, calc(1rem + 0vw), 1rem);
+  --text-size-n: clamp(1.2rem, calc(1.18rem + 0.09vw), 1.25rem);
+  --text-size-m: clamp(1.44rem, calc(1.4rem + 0.21vw), 1.56rem);
+  --text-size-l: clamp(1.73rem, calc(1.65rem + 0.39vw), 1.95rem);
+  --text-size-xl: clamp(2.07rem, calc(1.95rem + 0.64vw), 2.44rem);
+  --text-size-2xl: clamp(2.49rem, calc(2.29rem + 0.98vw), 3.05rem);
+  --text-size-3xl: clamp(2.99rem, calc(2.7rem + 1.44vw), 3.82rem);
+
+  /* Spacing (Static) */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs: 0.75rem;
+  --space-s: 1rem;
+  --space-m: 1.5rem;
+  --space-l: 2rem;
+  --space-xl: 3rem;
+  --space-2xl: 4rem;
+  --space-3xl: 6rem;
+
+  /* Spacing (Fluid) */
+  --space-3xs-2xs: clamp(0.25rem, calc(0.16rem + 0.43vw), 0.5rem);
+  --space-2xs-xs: clamp(0.5rem, calc(0.41rem + 0.43vw), 0.75rem);
+  --space-xs-s: clamp(0.75rem, calc(0.66rem + 0.43vw), 1rem);
+  --space-s-m: clamp(1rem, calc(0.83rem + 0.87vw), 1.5rem);
+  --space-m-l: clamp(1.5rem, calc(1.33rem + 0.87vw), 2rem);
+  --space-l-xl: clamp(2rem, calc(1.65rem + 1.74vw), 3rem);
+  --space-xl-2xl: clamp(3rem, calc(2.65rem + 1.74vw), 4rem);
+  --space-2xl-3xl: clamp(4rem, calc(3.3rem + 3.48vw), 6rem);
+
+  /* Elevation */
+  --elevation-1: 0px 1px 3px 1px rgba(0, 0, 0, 0.15),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  --elevation-2: 0px 2px 6px 2px rgba(0, 0, 0, 0.15),
+    0px 1px 2px 0px rgba(0, 0, 0, 0.3);
+  --elevation-3: 0px 1px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 4px 8px 3px rgba(0, 0, 0, 0.15);
+  --elevation-4: 0px 2px 3px 0px rgba(0, 0, 0, 0.3),
+    0px 6px 10px 4px rgba(0, 0, 0, 0.15);
+  --elevation-5: 0px 4px 4px 0px rgba(0, 0, 0, 0.3),
+    0px 8px 12px 6px rgba(0, 0, 0, 0.15);
+  --text-elevation-1: 0px 1px 3px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --text-elevation-2: 0px 2px 6px rgba(0, 0, 0, 0.15),
+    0px 1px 2px rgba(0, 0, 0, 0.3);
+  --text-elevation-3: 0px 1px 3px rgba(0, 0, 0, 0.3),
+    0px 4px 8px rgba(0, 0, 0, 0.15);
+  --text-elevation-4: 0px 2px 3px rgba(0, 0, 0, 0.3),
+    0px 6px 10px rgba(0, 0, 0, 0.15);
+  --text-elevation-5: 0px 4px 4px rgba(0, 0, 0, 0.3),
+    0px 8px 12px rgba(0, 0, 0, 0.15);
+
+  /* Transitions */
+  --transition-all-default: all 0.236s linear;
+
+  /* Reset */
+  --reset: 0 0 0 0;
+
+  /* Color */
+
   --md-source: #6750a4;
   /* primary */
   --md-ref-palette-primary0: #000000;
